@@ -1,6 +1,6 @@
 baseURL = 'https://www.stellorbit.net/'
 languageCode = 'ja'
-theme = 'Papermod'
+theme = 'PaperMod'
 buildDrafts = false
 buildFuture = false
 buildExpired = false
