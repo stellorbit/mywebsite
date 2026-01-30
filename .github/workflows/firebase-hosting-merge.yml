@@ -33,9 +33,7 @@ jobs:
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:
-          # 👇 以前取得した長い文字列（projects/...）に書き換えてください
           workload_identity_provider: 'projects/1095497309504/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
-          # 👇 あなたのサービスアカウントのアドレスに書き換えてください
           service_account: 'github-action-sa@stellorbit-blog.iam.gserviceaccount.com'
 
       # 4. ビルド
@@ -47,6 +45,5 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: 'github-action-sa@stellorbit-blog.iam.gserviceaccount.com'
           channelId: live
           projectId: stellorbit-blog
