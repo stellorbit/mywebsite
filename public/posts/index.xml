@@ -1,68 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on </title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on </description>
-    <generator>Hugo -- 0.155.0</generator>
-    <language>ja</language>
-    <lastBuildDate>Sat, 10 Jan 2026 12:02:27 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Visual Studio 2026から書いてみたテスト記事。</title>
-      <link>http://localhost:1313/posts/visualstudio/</link>
-      <pubDate>Sat, 10 Jan 2026 12:02:27 +0900</pubDate>
-      <guid>http://localhost:1313/posts/visualstudio/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;こちらはテスト記事です内容の変更が頻繁にありますのでご注意ください&#34;&gt;こちらはテスト記事です。内容の変更が頻繁にありますので、ご注意ください。&lt;/h2&gt;
-&lt;h2 id=&#34;ものは試し&#34;&gt;ものは試し。&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on</title><link>https://www.stellorbit.net/posts/</link><description>Recent content in Posts on</description><generator>Hugo -- 0.155.0</generator><language>ja</language><lastBuildDate>Sat, 10 Jan 2026 12:02:27 +0900</lastBuildDate><atom:link href="https://www.stellorbit.net/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Visual Studio 2026から書いてみたテスト記事。</title><link>https://www.stellorbit.net/posts/visualstudio/</link><pubDate>Sat, 10 Jan 2026 12:02:27 +0900</pubDate><guid>https://www.stellorbit.net/posts/visualstudio/</guid><description>&lt;hr&gt;
+&lt;h2 id="こちらはテスト記事です内容の変更が頻繁にありますのでご注意ください"&gt;こちらはテスト記事です。内容の変更が頻繁にありますので、ご注意ください。&lt;/h2&gt;
+&lt;h2 id="ものは試し"&gt;ものは試し。&lt;/h2&gt;
 &lt;p&gt;hugo+Firebaseなこのブログですが、どうもターミナルから投稿するのも、MarkdownのWYSIWYGエディタもイマイチしっくり来ないので、Visual Studio 2026から直接書いてみることにしました。&lt;/p&gt;
 &lt;p&gt;多分VS Codeとか使うのもいいんでしょうが、せっかくの多機能IDEでNode.jsがハナからサポートされているので、いっぺんやってみようじゃないかと。&lt;/p&gt;
 &lt;p&gt;ちなみにVisual StudioのCommunityは無料で使えます。昔々Visual Studio 6.0の頃はすんごいお高かったんですが、個人～小規模だとC#やC++、Python、JavaScript等々の開発環境が無料。&lt;/p&gt;
 &lt;p&gt;恐ろしい時代だ・・・&lt;/p&gt;
-&lt;h3 id=&#34;visual-studio-2026でのmarkdown編集&#34;&gt;Visual Studio 2026でのMarkdown編集&lt;/h3&gt;
+&lt;h3 id="visual-studio-2026でのmarkdown編集"&gt;Visual Studio 2026でのMarkdown編集&lt;/h3&gt;
 &lt;p&gt;Visual Studio 2026では、Markdownの編集がかなり強化されており、リアルタイムプレビューやシンタックスハイライトが充実しています。これにより、記事の構成やスタイルを確認しながら執筆できるため、非常に便利です。&lt;/p&gt;
 &lt;p&gt;・・・と、&lt;strong&gt;自動で出てきました。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;多少うざったいですが、こういう入力アシストの文章からアイデアを拾えたりするので、目をつむります。&lt;/p&gt;
-&lt;h3 id=&#34;firebaseへのデプロイ&#34;&gt;Firebaseへのデプロイ&lt;/h3&gt;
+&lt;h3 id="firebaseへのデプロイ"&gt;Firebaseへのデプロイ&lt;/h3&gt;
 &lt;p&gt;デプロイで現在躓いていて、Firebase CLIをいつものとおりに&lt;code&gt;hugo &amp;amp;&amp;amp; firebase deploy&lt;/code&gt;ってVSのターミナルからやってます。&lt;/p&gt;
 &lt;p&gt;もうちょい効率的にできるといいんですが、訳が分からないので、今はこれで我慢。&lt;/p&gt;
-&lt;p&gt;・・・多分Codeのほうが楽なんじゃないか疑惑が出ています。そっちもあとで使ってみます。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>【2025改訂版】初心者向けのDAWなんて存在しない。</title>
-      <link>http://localhost:1313/posts/daw-for-beginner/</link>
-      <pubDate>Mon, 15 Dec 2025 19:24:14 +0900</pubDate>
-      <guid>http://localhost:1313/posts/daw-for-beginner/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;「初心者におすすめのDAWって何？」&lt;/strong&gt; という質問をよく目にします。&lt;/p&gt;
+&lt;p&gt;・・・多分Codeのほうが楽なんじゃないか疑惑が出ています。そっちもあとで使ってみます。&lt;/p&gt;</description></item><item><title>【2025改訂版】初心者向けのDAWなんて存在しない。</title><link>https://www.stellorbit.net/posts/daw-for-beginner/</link><pubDate>Mon, 15 Dec 2025 19:24:14 +0900</pubDate><guid>https://www.stellorbit.net/posts/daw-for-beginner/</guid><description>&lt;p&gt;&lt;strong&gt;「初心者におすすめのDAWって何？」&lt;/strong&gt; という質問をよく目にします。&lt;/p&gt;
 &lt;p&gt;この質問に対して、私ははっきりこう答えます。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;無い。そんなものはない。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;初学者でも操作がしやすいものなど存在しない。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;私はこう答えます。&lt;/p&gt;
 &lt;p&gt;この記事自体は2年前にnoteで書いたものですが、それをベースとして、その理由をちゃんと説明いたします。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap1&#34;&gt;皆が忘れている、創作系ソフトの「大前提」&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap2&#34;&gt;オーディオIF付属のDAWはただの「機能制限版」&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;a href=&#34;#cap3&#34;&gt;「情報の多さ」＝「ハードルの高さ」&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap3-1&#34;&gt;調べる方法がわからなければ答えにたどり着けない&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap3-2&#34;&gt;AIチャットツールに聞けばソフトの種類は関係なくなる&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;        &lt;a href=&#34;#cap3ai&#34;&gt;⚠️AIツールを使用する際に「絶対に」頭の片隅に置くべきこと&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap3pr&#34;&gt;プロンプト例&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap4&#34;&gt;で、どう選ぶのが正解なの？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap4-1&#34;&gt;選ぶ際のポイント&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;        &lt;a href=&#34;#cap4-2&#34;&gt;後で別のDAWの味を知ってしまったら？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap5&#34;&gt;主要DAW仕様表&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5-1&#34;&gt;「ARM対応」について&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5paid&#34;&gt;有料DAW（試用版あり）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5letsbuy&#34;&gt;気に入ったら買おう。&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5free&#34;&gt;金がない？ならば無料DAWだ！&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap6&#34;&gt;オーディオインターフェイスを第一優先に&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#omake&#34;&gt;おまけ：主流＋αのDAWの個人的レビュー&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#cap1"&gt;皆が忘れている、創作系ソフトの「大前提」&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#cap2"&gt;オーディオIF付属のDAWはただの「機能制限版」&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;  &lt;a href="#cap3"&gt;「情報の多さ」＝「ハードルの高さ」&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap3-1"&gt;調べる方法がわからなければ答えにたどり着けない&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap3-2"&gt;AIチャットツールに聞けばソフトの種類は関係なくなる&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;        &lt;a href="#cap3ai"&gt;⚠️AIツールを使用する際に「絶対に」頭の片隅に置くべきこと&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap3pr"&gt;プロンプト例&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#cap4"&gt;で、どう選ぶのが正解なの？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap4-1"&gt;選ぶ際のポイント&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;        &lt;a href="#cap4-2"&gt;後で別のDAWの味を知ってしまったら？&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#cap5"&gt;主要DAW仕様表&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap5-1"&gt;「ARM対応」について&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap5paid"&gt;有料DAW（試用版あり）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap5letsbuy"&gt;気に入ったら買おう。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;    &lt;a href="#cap5free"&gt;金がない？ならば無料DAWだ！&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#cap6"&gt;オーディオインターフェイスを第一優先に&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="#omake"&gt;おまけ：主流＋αのDAWの個人的レビュー&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;cap1&#34;&gt;皆が忘れている、創作系ソフトの「大前提」&lt;/h2&gt;
+&lt;h2 id="cap1"&gt;皆が忘れている、創作系ソフトの「大前提」&lt;/h2&gt;
 &lt;p&gt;これはDAWに限らず、Adobeなどの創作系ソフト全般に言えることなんですが、&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;「元々プロ向けのソフトであり、それがそのまま消費者向け市場に来たもの」&lt;/strong&gt; なんです。&lt;/p&gt;
 &lt;p&gt;つまり、中身は元から変わってないんです。それが&lt;strong&gt;一般消費者のPCで動くようになって、個人のクリエイターが使えるようになった&lt;/strong&gt;だけの話です。&lt;/p&gt;
-&lt;h3 id=&#34;価格面&#34;&gt;価格面&lt;/h3&gt;
+&lt;h3 id="価格面"&gt;価格面&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Cubase Pro&lt;/strong&gt;は今も定価で買えば&lt;strong&gt;6万前後&lt;/strong&gt;、&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Ableton Live&lt;/strong&gt;なんかも&lt;strong&gt;真ん中のStandardから5万くらい&lt;/strong&gt;します。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Studio One Pro&lt;/strong&gt;も&lt;strong&gt;元々4万程度&lt;/strong&gt;する代物が最近販売手法が変わり、購入のハードルが下がっただけです。&lt;/p&gt;
@@ -70,86 +48,79 @@
 &lt;p&gt;&lt;strong&gt;「Adobe Creative Suite 6 Master Collection」&lt;/strong&gt;　ってやつなんですが、調べたところ&lt;strong&gt;33万円&lt;/strong&gt;でした。&lt;/p&gt;
 &lt;p&gt;作ったばかりのクレカなら限度額オーバーになる額です。&lt;/p&gt;
 &lt;p&gt;それが海賊版対策やらでサブスクになり、アマチュアの手に渡るようになったわけです。&lt;/p&gt;
-&lt;h3 id=&#34;機能面&#34;&gt;機能面&lt;/h3&gt;
+&lt;h3 id="機能面"&gt;機能面&lt;/h3&gt;
 &lt;p&gt;元々プロ向けの高額なソフト、ということは・・・&lt;strong&gt;機能面もプロ向けです。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows限定で無料でダウンロードできる&lt;a href=&#34;https://www.cakewalk.com/sonar&#34;&gt;Cakewalk Sonar&lt;/a&gt;とか、元々は&lt;strong&gt;6-7万とかで売ってた代物&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;Windows限定で無料でダウンロードできる&lt;a href="https://www.cakewalk.com/sonar"&gt;Cakewalk Sonar&lt;/a&gt;とか、元々は&lt;strong&gt;6-7万とかで売ってた代物&lt;/strong&gt;です。&lt;/p&gt;
 &lt;p&gt;フル機能の開放にはメンバーシップの加入必須ですが、&lt;strong&gt;無料範囲だけでもかなり習熟が難しい&lt;/strong&gt;です。&lt;/p&gt;
 &lt;p&gt;昔の作曲家やエンジニアは、&lt;strong&gt;分厚い説明書を読みながらこれらと格闘していた&lt;/strong&gt;わけです。&lt;/p&gt;
 &lt;p&gt;現在主流のDAWは&lt;strong&gt;一部を除いてほとんどコレです。&lt;/strong&gt; 適当なソフトのユーザーマニュアル（英語のほうが出てきやすいかも）を調べて見てください。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ボリュームがエゲツないですよほんと。&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;情報の取得&#34;&gt;情報の取得&lt;/h3&gt;
+&lt;h3 id="情報の取得"&gt;情報の取得&lt;/h3&gt;
 &lt;p&gt;今でこそチュートリアル動画はどこかしこに転がっていますが、&lt;strong&gt;「え、その機能どこどこ？？？」ってなる事がかなり多い&lt;/strong&gt;です。&lt;/p&gt;
 &lt;p&gt;そんで検索して出てくるのは、&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;分厚いマニュアルのデジタル版&lt;/strong&gt;、&lt;strong&gt;ソフト固有の用語が飛び交うフォーラム&lt;/strong&gt;、&lt;strong&gt;超長尺のYouTube動画&lt;/strong&gt;、そして&lt;strong&gt;初心者向けとは程遠い書籍&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;あと&lt;strong&gt;適当なこと書いてあるまとめサイトやYouTube動画！！！！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;（&lt;a href=&#34;https://sleepfreaks-dtm.com/&#34;&gt;Sleepfreaks&lt;/a&gt;除く。あそこは&lt;strong&gt;初学者向けの日本語情報はダントツ&lt;/strong&gt;だと思います。）&lt;/p&gt;
+&lt;p&gt;（&lt;a href="https://sleepfreaks-dtm.com/"&gt;Sleepfreaks&lt;/a&gt;除く。あそこは&lt;strong&gt;初学者向けの日本語情報はダントツ&lt;/strong&gt;だと思います。）&lt;/p&gt;
 &lt;p&gt;これらで躓いた人は何人も見てきました。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;自分も躓いて投げ出したソフトは山程あります。&lt;/strong&gt; Avidの動画編集ソフトとか。&lt;/p&gt;
-&lt;h2 id=&#34;cap2&#34;&gt;オーディオIF付属のDAWはただの「機能制限版」&lt;/h2&gt;
+&lt;h2 id="cap2"&gt;オーディオIF付属のDAWはただの「機能制限版」&lt;/h2&gt;
 &lt;p&gt;オーディオインターフェイスなんか買うと、オマケでDAWがついてることがありますよね。&lt;/p&gt;
 &lt;p&gt;Cubase AI、Ableton Live Lite、Performer Lite…&lt;/p&gt;
 &lt;p&gt;これらは、&lt;strong&gt;価格を安くするために機能を色々削った「機能制限版」&lt;/strong&gt; であり、&lt;strong&gt;初心者向けでもなんでもない&lt;/strong&gt;です。&lt;/p&gt;
-&lt;p&gt;こういった付属ソフトは、後述する &lt;strong&gt;「体験版を片っ端から試す」&lt;/strong&gt; 場合に&lt;strong&gt;デッキに組み込む&lt;/strong&gt;のが最適解だと思います。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>「僕が考えた最強のタバコ政策」をGemini 3にジャッジしてもらった。</title>
-      <link>http://localhost:1313/posts/tobacco-harmreduction-perplexity/</link>
-      <pubDate>Sat, 13 Dec 2025 15:17:43 +0900</pubDate>
-      <guid>http://localhost:1313/posts/tobacco-harmreduction-perplexity/</guid>
-      <description>&lt;p&gt;本格的に記事を書いてみます。&lt;/p&gt;
+&lt;p&gt;こういった付属ソフトは、後述する &lt;strong&gt;「体験版を片っ端から試す」&lt;/strong&gt; 場合に&lt;strong&gt;デッキに組み込む&lt;/strong&gt;のが最適解だと思います。&lt;/p&gt;</description></item><item><title>「僕が考えた最強のタバコ政策」をGemini 3にジャッジしてもらった。</title><link>https://www.stellorbit.net/posts/tobacco-harmreduction-perplexity/</link><pubDate>Sat, 13 Dec 2025 15:17:43 +0900</pubDate><guid>https://www.stellorbit.net/posts/tobacco-harmreduction-perplexity/</guid><description>&lt;p&gt;本格的に記事を書いてみます。&lt;/p&gt;
 &lt;p&gt;今日、こんなことを思いました。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;「加熱式とかの非燃焼式のシェアを上げて紙巻きを高付加価値化すれば、タバコの諸々の問題の解決策のひとつになるのでは？」&lt;/strong&gt; と。&lt;/p&gt;
 &lt;p&gt;Xにも多少書いたのですが、ここはAIにちょっと助けてもらうとしましょう。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88&#34;&gt;プロンプト&lt;/a&gt;
+&lt;li&gt;&lt;a href="#%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88"&gt;プロンプト&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E3%82%A8%E3%82%B0%E3%82%BC%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B5%E3%83%9E%E3%83%AA%E3%83%BC&#34;&gt;エグゼクティブサマリー&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%87%83%E7%84%BC%E5%BC%8F%E3%82%BF%E3%83%90%E3%82%B3%E3%81%AE%E9%A1%95%E5%9C%A8%E5%8C%96%E3%81%97%E3%81%9F%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88&#34;&gt;燃焼式タバコの顕在化したデメリット&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E9%9D%9E%E7%87%83%E7%84%BC%E5%BC%8F%E3%82%BF%E3%83%90%E3%82%B3%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88&#34;&gt;非燃焼式タバコのメリット&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%BD%93%E8%A9%B2%E6%A1%88%E3%81%AE%E7%9B%AE%E7%9A%84&#34;&gt;当該案の目的&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E6%87%B8%E5%BF%B5%E4%BA%8B%E9%A0%85&#34;&gt;懸念事項&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E3%82%A8%E3%82%B0%E3%82%BC%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B5%E3%83%9E%E3%83%AA%E3%83%BC"&gt;エグゼクティブサマリー&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E7%87%83%E7%84%BC%E5%BC%8F%E3%82%BF%E3%83%90%E3%82%B3%E3%81%AE%E9%A1%95%E5%9C%A8%E5%8C%96%E3%81%97%E3%81%9F%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88"&gt;燃焼式タバコの顕在化したデメリット&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E9%9D%9E%E7%87%83%E7%84%BC%E5%BC%8F%E3%82%BF%E3%83%90%E3%82%B3%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88"&gt;非燃焼式タバコのメリット&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E5%BD%93%E8%A9%B2%E6%A1%88%E3%81%AE%E7%9B%AE%E7%9A%84"&gt;当該案の目的&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E6%87%B8%E5%BF%B5%E4%BA%8B%E9%A0%85"&gt;懸念事項&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#gemini%E3%81%AE%E8%BF%94%E7%AD%94&#34;&gt;Geminiの返答&lt;/a&gt;
+&lt;li&gt;&lt;a href="#gemini%E3%81%AE%E8%BF%94%E7%AD%94"&gt;Geminiの返答&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#1-%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%AE%E6%B7%B1%E6%8E%98%E3%82%8A%E7%A4%BE%E4%BC%9A%E7%9A%84%E7%B5%8C%E6%B8%88%E7%9A%84%E5%90%88%E7%90%86%E6%80%A7&#34;&gt;1. メリットの深掘り：社会的・経済的合理性&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%A4%BE%E4%BC%9A%E7%9A%84%E3%82%B3%E3%82%B9%E3%83%88%E5%A4%96%E9%83%A8%E4%B8%8D%E7%B5%8C%E6%B8%88%E3%81%AE%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA%E5%89%8A%E6%B8%9B&#34;&gt;社会的コスト（外部不経済）の具体的な削減&lt;/a&gt;
+&lt;li&gt;&lt;a href="#1-%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%AE%E6%B7%B1%E6%8E%98%E3%82%8A%E7%A4%BE%E4%BC%9A%E7%9A%84%E7%B5%8C%E6%B8%88%E7%9A%84%E5%90%88%E7%90%86%E6%80%A7"&gt;1. メリットの深掘り：社会的・経済的合理性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E7%A4%BE%E4%BC%9A%E7%9A%84%E3%82%B3%E3%82%B9%E3%83%88%E5%A4%96%E9%83%A8%E4%B8%8D%E7%B5%8C%E6%B8%88%E3%81%AE%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA%E5%89%8A%E6%B8%9B"&gt;社会的コスト（外部不経済）の具体的な削減&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E6%B8%85%E6%8E%83%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%82%B3%E3%82%B9%E3%83%88%E3%81%AE%E5%8A%87%E7%9A%84%E4%BD%8E%E4%B8%8B&#34;&gt;清掃・メンテナンスコストの劇的低下&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%8A%B4%E5%83%8D%E7%94%9F%E7%94%A3%E6%80%A7%E3%81%AE%E5%90%91%E4%B8%8A&#34;&gt;労働生産性の向上&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%94%A3%E6%A5%AD%E6%A7%8B%E9%80%A0%E3%81%AE%E8%BB%A2%E6%8F%9B%E3%81%A8%E6%8A%80%E8%A1%93%E9%9D%A9%E6%96%B0&#34;&gt;産業構造の転換と技術革新&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E6%B6%88%E9%98%B2%E9%98%B2%E7%81%BD%E9%9D%A2%E3%81%A7%E3%81%AE%E5%AE%9A%E9%87%8F%E7%9A%84%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88&#34;&gt;消防・防災面での定量的メリット&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E6%B8%85%E6%8E%83%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%82%B3%E3%82%B9%E3%83%88%E3%81%AE%E5%8A%87%E7%9A%84%E4%BD%8E%E4%B8%8B"&gt;清掃・メンテナンスコストの劇的低下&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E5%8A%B4%E5%83%8D%E7%94%9F%E7%94%A3%E6%80%A7%E3%81%AE%E5%90%91%E4%B8%8A"&gt;労働生産性の向上&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E7%94%A3%E6%A5%AD%E6%A7%8B%E9%80%A0%E3%81%AE%E8%BB%A2%E6%8F%9B%E3%81%A8%E6%8A%80%E8%A1%93%E9%9D%A9%E6%96%B0"&gt;産業構造の転換と技術革新&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E6%B6%88%E9%98%B2%E9%98%B2%E7%81%BD%E9%9D%A2%E3%81%A7%E3%81%AE%E5%AE%9A%E9%87%8F%E7%9A%84%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88"&gt;消防・防災面での定量的メリット&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#2-%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E6%87%B8%E5%BF%B5%E4%BA%8B%E9%A0%85%E3%81%AE%E6%B7%B1%E6%8E%98%E3%82%8A%E6%94%BF%E7%AD%96%E5%B8%82%E5%A0%B4%E3%83%AA%E3%82%B9%E3%82%AF&#34;&gt;2. デメリット・懸念事項の深掘り：政策・市場リスク&lt;/a&gt;
+&lt;li&gt;&lt;a href="#2-%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E6%87%B8%E5%BF%B5%E4%BA%8B%E9%A0%85%E3%81%AE%E6%B7%B1%E6%8E%98%E3%82%8A%E6%94%BF%E7%AD%96%E5%B8%82%E5%A0%B4%E3%83%AA%E3%82%B9%E3%82%AF"&gt;2. デメリット・懸念事項の深掘り：政策・市場リスク&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#a-%E8%B2%A1%E6%94%BF%E5%B8%82%E5%A0%B4%E3%83%AA%E3%82%B9%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E5%8F%B0%E9%A0%AD&#34;&gt;A. 財政・市場リスク（ブラックマーケットの台頭）※&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#b-%E6%94%BF%E7%AD%96%E7%9A%84%E5%80%AB%E7%90%86%E7%9A%84%E3%83%8F%E3%83%BC%E3%83%89%E3%83%AB%E5%85%AC%E9%87%91%E3%81%AB%E3%82%88%E3%82%8B%E8%A3%9C%E5%8A%A9%E3%81%AE%E6%98%AF%E9%9D%9E&#34;&gt;B. 政策的・倫理的ハードル（公金による補助の是非）※&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#c-%E7%A4%BE%E4%BC%9A%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E9%80%86%E9%80%B2%E6%80%A7%E3%81%AE%E6%8B%A1%E5%A4%A7&#34;&gt;C. 社会的公平性（逆進性の拡大）※&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#d-%E3%83%8F%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%B8%8D%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%A8%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%A6%E3%83%BC%E3%82%B9&#34;&gt;D. ハーム・リダクションの不確実性（ゲートウェイとデュアルユース）※&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#a-%E8%B2%A1%E6%94%BF%E5%B8%82%E5%A0%B4%E3%83%AA%E3%82%B9%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E5%8F%B0%E9%A0%AD"&gt;A. 財政・市場リスク（ブラックマーケットの台頭）※&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#b-%E6%94%BF%E7%AD%96%E7%9A%84%E5%80%AB%E7%90%86%E7%9A%84%E3%83%8F%E3%83%BC%E3%83%89%E3%83%AB%E5%85%AC%E9%87%91%E3%81%AB%E3%82%88%E3%82%8B%E8%A3%9C%E5%8A%A9%E3%81%AE%E6%98%AF%E9%9D%9E"&gt;B. 政策的・倫理的ハードル（公金による補助の是非）※&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#c-%E7%A4%BE%E4%BC%9A%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E9%80%86%E9%80%B2%E6%80%A7%E3%81%AE%E6%8B%A1%E5%A4%A7"&gt;C. 社会的公平性（逆進性の拡大）※&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#d-%E3%83%8F%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%B8%8D%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%A8%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%A6%E3%83%BC%E3%82%B9"&gt;D. ハーム・リダクションの不確実性（ゲートウェイとデュアルユース）※&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#3-%E7%B7%8F%E6%8B%AC%E4%BF%AE%E6%AD%A3%E6%A1%88%E3%81%AE%E6%8F%90%E8%A8%80&#34;&gt;3. 総括・修正案の提言&lt;/a&gt;
+&lt;li&gt;&lt;a href="#3-%E7%B7%8F%E6%8B%AC%E4%BF%AE%E6%AD%A3%E6%A1%88%E3%81%AE%E6%8F%90%E8%A8%80"&gt;3. 総括・修正案の提言&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%B7%8F%E8%A9%95&#34;&gt;総評&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E7%B7%8F%E8%A9%95"&gt;総評&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%BF%AE%E6%AD%A3%E6%A1%88%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7&#34;&gt;修正案としての方向性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E4%BF%AE%E6%AD%A3%E6%A1%88%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7"&gt;修正案としての方向性&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#gemini%E3%81%8F%E3%82%93%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E7%97%9B%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%82%92%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8B&#34;&gt;Geminiくん、なかなか痛いところをついてくる&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E3%81%BE%E3%81%A8%E3%82%81%E3%81%93%E3%81%AE%E5%9B%9E%E7%AD%94%E3%82%92%E8%B8%8F%E3%81%BE%E3%81%88%E3%81%9F%E5%8F%AF%E8%83%BD%E6%80%A7&#34;&gt;まとめ：この回答を踏まえた可能性&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#gemini%E3%81%8F%E3%82%93%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E7%97%9B%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%82%92%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8B"&gt;Geminiくん、なかなか痛いところをついてくる&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#%E3%81%BE%E3%81%A8%E3%82%81%E3%81%93%E3%81%AE%E5%9B%9E%E7%AD%94%E3%82%92%E8%B8%8F%E3%81%BE%E3%81%88%E3%81%9F%E5%8F%AF%E8%83%BD%E6%80%A7"&gt;まとめ：この回答を踏まえた可能性&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;プロンプト&#34;&gt;プロンプト&lt;/h2&gt;
+&lt;h2 id="プロンプト"&gt;プロンプト&lt;/h2&gt;
 &lt;p&gt;使用エンジン：Gemini 3.0 Pro（Perplexity経由、「理論的に」ON）&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;タバコ税に関する自分の案について、メリット・デメリットを教えて下さい。&lt;/p&gt;
 &lt;p&gt;各項目の末尾の「※」は懸念事項として記述します。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;# タバコ税改正案&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;「加熱式優遇によるハームリダクション推進→加熱式製品への増税のステップを踏むことによる『純粋な嗜好品』への税金への転換、燃焼式タバコのプレミアム化」&lt;/p&gt;
-&lt;h3 id=&#34;エグゼクティブサマリー&#34;&gt;エグゼクティブサマリー&lt;/h3&gt;
+&lt;h3 id="エグゼクティブサマリー"&gt;エグゼクティブサマリー&lt;/h3&gt;
 &lt;p&gt;この案は、紙巻・葉巻（リトルシガーやシガリロ含む）・手巻など「燃焼式タバコ」の増税を先行して行い、加熱式タバコやスヌースなど、「非燃焼式タバコ」の増税の一定期間の停止やデバイスの購入補助などの優遇措置を行うことで、主流を非燃焼式にスイッチしつつ、最終的に非燃焼式も燃焼式より低い推移で増税することで、「非燃焼式タバコによる税収確保」および「燃焼式タバコを高級嗜好品にカテゴライズし、税収の増加を狙う」策である。&lt;/p&gt;
-&lt;h3 id=&#34;燃焼式タバコの顕在化したデメリット&#34;&gt;燃焼式タバコの顕在化したデメリット&lt;/h3&gt;
+&lt;h3 id="燃焼式タバコの顕在化したデメリット"&gt;燃焼式タバコの顕在化したデメリット&lt;/h3&gt;
 &lt;p&gt;紙巻タバコは依然シェアは高いが、デメリットとして以下が挙げられる。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;燃焼時の主流煙・副流煙による健康リスク&lt;/li&gt;
@@ -162,7 +133,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;非燃焼式タバコのメリット&#34;&gt;非燃焼式タバコのメリット&lt;/h3&gt;
+&lt;h3 id="非燃焼式タバコのメリット"&gt;非燃焼式タバコのメリット&lt;/h3&gt;
 &lt;p&gt;iQOS・Ploom・glo等の加熱式タバコ・スヌースなどの非燃焼式タバコは、燃焼式タバコと比較して「主流煙・副流煙の有害物質の低減」がアピールされており、以下の効果が期待される。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;主流煙・副流煙の能動喫煙・受動喫煙双方の健康リスクの低減※&lt;/li&gt;
@@ -171,14 +142,14 @@
 &lt;li&gt;健康リスクの低減による医療費の削減・長寿命化※&lt;/li&gt;
 &lt;li&gt;非燃焼式タバコの市場拡大・活性化&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;当該案の目的&#34;&gt;当該案の目的&lt;/h3&gt;
+&lt;h3 id="当該案の目的"&gt;当該案の目的&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;燃焼式タバコから非燃焼式タバコへのスイッチによる各種負担（健康・コスト）の低減※&lt;/li&gt;
 &lt;li&gt;禁煙治療と比較してハードルが低い「非燃焼式タバコ」の使用によるハームリダクションの推進&lt;/li&gt;
 &lt;li&gt;燃焼式タバコの増税と併せてメーカー各社による戦略により、安価な銘柄の値上げ・高付加価値商品への切り替えによる「高級嗜好品化」を進め、タバコ税の税収やメーカー各社の収益改善につなげる。※&lt;/li&gt;
 &lt;li&gt;最終的に非燃焼式タバコも増税はするが、燃焼式タバコとの差異は設ける。これはかつて存在した「物品税」のタバコ税バージョンとなる。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;懸念事項&#34;&gt;懸念事項&lt;/h3&gt;
+&lt;h3 id="懸念事項"&gt;懸念事項&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;加熱式タバコの有害物質の低減データについては、メーカー側の発表が主であり、正式にリスクが低減することをWHOやFDAなどの公式機関が懐疑的である。
 加熱式タバコは肺で吸収するもので、タバコ葉は使われており、燃焼式と比較してリスクは少ないとしてもノーリスクではないため、医療費の削減や長寿命化への効果が薄い可能性がある。&lt;/li&gt;
@@ -186,7 +157,4 @@
 &lt;li&gt;燃焼式タバコの増税・プレミアム化によるユーザーからの反発のおそれ。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;さて、この質問をGeminiくんにぶつけてみましょう。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;さて、この質問をGeminiくんにぶつけてみましょう。&lt;/p&gt;</description></item></channel></rss>
