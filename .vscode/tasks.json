@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hugo: 開発サーバー",
+      "type": "shell",
+      "command": "hugo server -D",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Hugo: ビルド",
+      "type": "shell",
+      "command": "hugo --minify",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Firebase: デプロイ",
+      "type": "shell",
+      "command": "firebase deploy",
+      "dependsOn": [ "Hugo: ビルド" ],
+      "problemMatcher": []
+    },
+    {
+      "label": "ビルド & デプロイ",
+      "type": "shell",
+      "command": "hugo --minify && firebase deploy",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

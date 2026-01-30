@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.152.2">Hugo</generator>
+    <title>軌道を描こう。【改】</title>
+            <link href="http://localhost:1313/" rel="alternate" type="text/html" title="html" />
+            <link href="http://localhost:1313/feed.xml" rel="self" type="application/atom+xml" title="atom" />
+    <updated>2025-12-15T15:48:57+09:00</updated>
+    <id>http://localhost:1313/</id>
+        <entry>
+            <title>「僕が考えた最強のタバコ政策」をGemini 3にジャッジしてもらった。</title>
+            <link href="http://localhost:1313/posts/tobacco-harmreduction-perplexity/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://localhost:1313/posts/tobacco-harmreduction-perplexity/</id>
+            <published>2025-12-13T15:17:43+09:00</published>
+            <updated>2025-12-13T15:17:43+09:00</updated>
+            <content type="html">
+                &lt;p&gt;本格的に記事を書いてみます。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h2 id=&#34;タバコの加熱式非加熱式へのスイッチを推進すれば幸せな世界が来るかも&#34;
+    &gt;
+        タバコの加熱式→非加熱式へのスイッチを推進すれば幸せな世界が来るかも？
+    &lt;/h2&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#タバコの加熱式非加熱式へのスイッチを推進すれば幸せな世界が来るかも&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor タバコの加熱式→非加熱式へのスイッチを推進すれば幸せな世界が来るかも？&#34; href=&#34;#%e3%82%bf%e3%83%90%e3%82%b3%e3%81%ae%e5%8a%a0%e7%86%b1%e5%bc%8f%e9%9d%9e%e5%8a%a0%e7%86%b1%e5%bc%8f%e3%81%b8%e3%81%ae%e3%82%b9%e3%82%a4%e3%83%83%e3%83%81%e3%82%92%e6%8e%a8%e9%80%b2%e3%81%99%e3%82%8c%e3%81%b0%e5%b9%b8%e3%81%9b%e3%81%aa%e4%b8%96%e7%95%8c%e3%81%8c%e6%9d%a5%e3%82%8b%e3%81%8b%e3%82%82&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;今日、こんなことを思いました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「加熱式とかの非燃焼式のシェアを上げて紙巻きを高付加価値化すれば、タバコの諸々の問題の解決策のひとつになるのでは？」&lt;/strong&gt; と。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Xにも多少書いたのですが、ここはAIにちょっと助けてもらうとしましょう。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h2 id=&#34;プロンプト&#34;
+    &gt;
+        プロンプト
+    &lt;/h2&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#プロンプト&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor プロンプト&#34; href=&#34;#%e3%83%97%e3%83%ad%e3%83%b3%e3%83%97%e3%83%88&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;使用エンジン：Gemini 3.0 Pro（Perplexity経由、「理論的に」ON）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;タバコ税に関する自分の案について、メリット・デメリットを教えて下さい。&lt;/p&gt;
+&lt;p&gt;各項目の末尾の「※」は懸念事項として記述します。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;# タバコ税改正案&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;「加熱式優遇によるハームリダクション推進→加熱式製品への増税のステップを踏むことによる『純粋な嗜好品』への税金への転換、燃焼式タバコのプレミアム化」&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;エグゼクティブサマリー&#34;
+    &gt;
+        エグゼクティブサマリー
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#エグゼクティブサマリー&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor エグゼクティブサマリー&#34; href=&#34;#%e3%82%a8%e3%82%b0%e3%82%bc%e3%82%af%e3%83%86%e3%82%a3%e3%83%96%e3%82%b5%e3%83%9e%e3%83%aa%e3%83%bc&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;この案は、紙巻・葉巻（リトルシガーやシガリロ含む）・手巻など「燃焼式タバコ」の増税を先行して行い、加熱式タバコやスヌースなど、「非燃焼式タバコ」の増税の一定期間の停止やデバイスの購入補助などの優遇措置を行うことで、主流を非燃焼式にスイッチしつつ、最終的に非燃焼式も燃焼式より低い推移で増税することで、「非燃焼式タバコによる税収確保」および「燃焼式タバコを高級嗜好品にカテゴライズし、税収の増加を狙う」策である。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;燃焼式タバコの顕在化したデメリット&#34;
+    &gt;
+        燃焼式タバコの顕在化したデメリット
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#燃焼式タバコの顕在化したデメリット&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 燃焼式タバコの顕在化したデメリット&#34; href=&#34;#%e7%87%83%e7%84%bc%e5%bc%8f%e3%82%bf%e3%83%90%e3%82%b3%e3%81%ae%e9%a1%95%e5%9c%a8%e5%8c%96%e3%81%97%e3%81%9f%e3%83%87%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;紙巻タバコは依然シェアは高いが、デメリットとして以下が挙げられる。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;燃焼時の主流煙・副流煙による健康リスク&lt;/li&gt;
+&lt;li&gt;受動喫煙リスクの高さ&lt;/li&gt;
+&lt;li&gt;火の不始末による火災&lt;/li&gt;
+&lt;li&gt;事業所・店舗・公共の喫煙所の設置コストの増大&lt;/li&gt;
+&lt;li&gt;賃貸住宅や店舗テナントの管理側コスト・借り主側の選定の難しさ
+&lt;ul&gt;
+&lt;li&gt;雀荘・パチンコ店・飲食店などは喫煙所の新設や禁煙店舗にするしかなく、紙巻タバコのユーザーへや借り主の負担が大きい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;非燃焼式タバコのメリット&#34;
+    &gt;
+        非燃焼式タバコのメリット
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#非燃焼式タバコのメリット&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 非燃焼式タバコのメリット&#34; href=&#34;#%e9%9d%9e%e7%87%83%e7%84%bc%e5%bc%8f%e3%82%bf%e3%83%90%e3%82%b3%e3%81%ae%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;iQOS・Ploom・glo等の加熱式タバコ・スヌースなどの非燃焼式タバコは、燃焼式タバコと比較して「主流煙・副流煙の有害物質の低減」がアピールされており、以下の効果が期待される。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;主流煙・副流煙の能動喫煙・受動喫煙双方の健康リスクの低減※&lt;/li&gt;
+&lt;li&gt;物件のヤニ汚れリスクが低下することによる賃貸物件の選定ハードルの低減&lt;/li&gt;
+&lt;li&gt;火災リスクの低減：火災保険料や保険金の支払いの低下&lt;/li&gt;
+&lt;li&gt;健康リスクの低減による医療費の削減・長寿命化※&lt;/li&gt;
+&lt;li&gt;非燃焼式タバコの市場拡大・活性化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;当該案の目的&#34;
+    &gt;
+        当該案の目的
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#当該案の目的&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 当該案の目的&#34; href=&#34;#%e5%bd%93%e8%a9%b2%e6%a1%88%e3%81%ae%e7%9b%ae%e7%9a%84&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;燃焼式タバコから非燃焼式タバコへのスイッチによる各種負担（健康・コスト）の低減※&lt;/li&gt;
+&lt;li&gt;禁煙治療と比較してハードルが低い「非燃焼式タバコ」の使用によるハームリダクションの推進&lt;/li&gt;
+&lt;li&gt;燃焼式タバコの増税と併せてメーカー各社による戦略により、安価な銘柄の値上げ・高付加価値商品への切り替えによる「高級嗜好品化」を進め、タバコ税の税収やメーカー各社の収益改善につなげる。※&lt;/li&gt;
+&lt;li&gt;最終的に非燃焼式タバコも増税はするが、燃焼式タバコとの差異は設ける。これはかつて存在した「物品税」のタバコ税バージョンとなる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;懸念事項&#34;
+    &gt;
+        懸念事項
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#懸念事項&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 懸念事項&#34; href=&#34;#%e6%87%b8%e5%bf%b5%e4%ba%8b%e9%a0%85&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;加熱式タバコの有害物質の低減データについては、メーカー側の発表が主であり、正式にリスクが低減することをWHOやFDAなどの公式機関が懐疑的である。
+加熱式タバコは肺で吸収するもので、タバコ葉は使われており、燃焼式と比較してリスクは少ないとしてもノーリスクではないため、医療費の削減や長寿命化への効果が薄い可能性がある。&lt;/li&gt;
+&lt;li&gt;スヌースは唇の裏に挟み使用するものなので、口腔がんや舌がんのリスクが懸念される。&lt;/li&gt;
+&lt;li&gt;燃焼式タバコの増税・プレミアム化によるユーザーからの反発のおそれ。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;さて、この質問をGeminiくんにぶつけてみましょう。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h2 id=&#34;geminiの返答&#34;
+    &gt;
+        Geminiの返答
+    &lt;/h2&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#geminiの返答&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor Geminiの返答&#34; href=&#34;#gemini%e3%81%ae%e8%bf%94%e7%ad%94&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;上記のプロンプトに対するGeminiの返答がこちら。&lt;/p&gt;
+&lt;p&gt;ご提示いただいた「タバコ税改正案」は、現在世界的に議論されている &lt;strong&gt;「たばこハーム・リダクション（THR）」&lt;/strong&gt; の概念を日本独自の「加熱式タバコ普及率の高さ」に合わせて適応させた、非常に論理的かつ戦略的な構成案であると評価できます。特に、タバコを単なる排除対象ではなく「税収源」として維持しつつ、社会的コストを下げるという現実的な着地点を目指している点が特徴です。&lt;/p&gt;
+&lt;p&gt;ご提示の案について、専門的な観点からメリット・デメリット（懸念事項）を分析・補足します。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;1-メリットの深掘り社会的経済的合理性&#34;
+    &gt;
+        1. メリットの深掘り：社会的・経済的合理性
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#1-メリットの深掘り社会的経済的合理性&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 1. メリットの深掘り：社会的・経済的合理性&#34; href=&#34;#1-%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88%e3%81%ae%e6%b7%b1%e6%8e%98%e3%82%8a%e7%a4%be%e4%bc%9a%e7%9a%84%e7%b5%8c%e6%b8%88%e7%9a%84%e5%90%88%e7%90%86%e6%80%a7&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;ご提示のメリットに加え、以下の観点においてもこの案は強力な合理性を持ちます。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;社会的コスト外部不経済の具体的な削減&#34;
+    &gt;
+        社会的コスト（外部不経済）の具体的な削減
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#社会的コスト外部不経済の具体的な削減&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 社会的コスト（外部不経済）の具体的な削減&#34; href=&#34;#%e7%a4%be%e4%bc%9a%e7%9a%84%e3%82%b3%e3%82%b9%e3%83%88%e5%a4%96%e9%83%a8%e4%b8%8d%e7%b5%8c%e6%b8%88%e3%81%ae%e5%85%b7%e4%bd%93%e7%9a%84%e3%81%aa%e5%89%8a%e6%b8%9b&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;清掃メンテナンスコストの劇的低下-燃焼式タバコのヤニタールは賃貸物件の壁紙だけでなく公共喫煙所やオフィスの空調設備鉄道車両の喫煙ルームなどの清掃コストを著しく増大させています非燃焼式への移行はこれらのメンテナンス頻度とコストを下げ不動産価値の維持に直結します&#34;
+    &gt;
+        清掃・メンテナンスコストの劇的低下: 燃焼式タバコの「ヤニ（タール）」は、賃貸物件の壁紙だけでなく、公共喫煙所やオフィスの空調設備、鉄道車両の喫煙ルームなどの清掃コストを著しく増大させています。非燃焼式への移行は、これらのメンテナンス頻度とコストを下げ、不動産価値の維持に直結します。​
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#清掃メンテナンスコストの劇的低下-燃焼式タバコのヤニタールは賃貸物件の壁紙だけでなく公共喫煙所やオフィスの空調設備鉄道車両の喫煙ルームなどの清掃コストを著しく増大させています非燃焼式への移行はこれらのメンテナンス頻度とコストを下げ不動産価値の維持に直結します&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 清掃・メンテナンスコストの劇的低下: 燃焼式タバコの「ヤニ（タール）」は、賃貸物件の壁紙だけでなく、公共喫煙所やオフィスの空調設備、鉄道車両の喫煙ルームなどの清掃コストを著しく増大させています。非燃焼式への移行は、これらのメンテナンス頻度とコストを下げ、不動産価値の維持に直結します。​&#34; href=&#34;#%e6%b8%85%e6%8e%83%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e3%82%b3%e3%82%b9%e3%83%88%e3%81%ae%e5%8a%87%e7%9a%84%e4%bd%8e%e4%b8%8b-%e7%87%83%e7%84%bc%e5%bc%8f%e3%82%bf%e3%83%90%e3%82%b3%e3%81%ae%e3%83%a4%e3%83%8b%e3%82%bf%e3%83%bc%e3%83%ab%e3%81%af%e8%b3%83%e8%b2%b8%e7%89%a9%e4%bb%b6%e3%81%ae%e5%a3%81%e7%b4%99%e3%81%a0%e3%81%91%e3%81%a7%e3%81%aa%e3%81%8f%e5%85%ac%e5%85%b1%e5%96%ab%e7%85%99%e6%89%80%e3%82%84%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%81%ae%e7%a9%ba%e8%aa%bf%e8%a8%ad%e5%82%99%e9%89%84%e9%81%93%e8%bb%8a%e4%b8%a1%e3%81%ae%e5%96%ab%e7%85%99%e3%83%ab%e3%83%bc%e3%83%a0%e3%81%aa%e3%81%a9%e3%81%ae%e6%b8%85%e6%8e%83%e3%82%b3%e3%82%b9%e3%83%88%e3%82%92%e8%91%97%e3%81%97%e3%81%8f%e5%a2%97%e5%a4%a7%e3%81%95%e3%81%9b%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e9%9d%9e%e7%87%83%e7%84%bc%e5%bc%8f%e3%81%b8%e3%81%ae%e7%a7%bb%e8%a1%8c%e3%81%af%e3%81%93%e3%82%8c%e3%82%89%e3%81%ae%e3%83%a1%e3%83%b3%e3%83%86%e3%83%8a%e3%83%b3%e3%82%b9%e9%a0%bb%e5%ba%a6%e3%81%a8%e3%82%b3%e3%82%b9%e3%83%88%e3%82%92%e4%b8%8b%e3%81%92%e4%b8%8d%e5%8b%95%e7%94%a3%e4%be%a1%e5%80%a4%e3%81%ae%e7%b6%ad%e6%8c%81%e3%81%ab%e7%9b%b4%e7%b5%90%e3%81%97%e3%81%be%e3%81%99&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;労働生産性の向上-タバコ休憩において燃焼式は喫煙所への移動や消火確認に時間を要しますが加熱式は一部オフィスでの自席や専用ブースでの許可など動線が短縮される傾向にあり企業側の管理コスト低下に寄与する可能性があります&#34;
+    &gt;
+        労働生産性の向上: 「タバコ休憩」において、燃焼式は喫煙所への移動や消火確認に時間を要しますが、加熱式は（一部オフィスでの自席や専用ブースでの許可など）動線が短縮される傾向にあり、企業側の管理コスト低下に寄与する可能性があります。
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#労働生産性の向上-タバコ休憩において燃焼式は喫煙所への移動や消火確認に時間を要しますが加熱式は一部オフィスでの自席や専用ブースでの許可など動線が短縮される傾向にあり企業側の管理コスト低下に寄与する可能性があります&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 労働生産性の向上: 「タバコ休憩」において、燃焼式は喫煙所への移動や消火確認に時間を要しますが、加熱式は（一部オフィスでの自席や専用ブースでの許可など）動線が短縮される傾向にあり、企業側の管理コスト低下に寄与する可能性があります。&#34; href=&#34;#%e5%8a%b4%e5%83%8d%e7%94%9f%e7%94%a3%e6%80%a7%e3%81%ae%e5%90%91%e4%b8%8a-%e3%82%bf%e3%83%90%e3%82%b3%e4%bc%91%e6%86%a9%e3%81%ab%e3%81%8a%e3%81%84%e3%81%a6%e7%87%83%e7%84%bc%e5%bc%8f%e3%81%af%e5%96%ab%e7%85%99%e6%89%80%e3%81%b8%e3%81%ae%e7%a7%bb%e5%8b%95%e3%82%84%e6%b6%88%e7%81%ab%e7%a2%ba%e8%aa%8d%e3%81%ab%e6%99%82%e9%96%93%e3%82%92%e8%a6%81%e3%81%97%e3%81%be%e3%81%99%e3%81%8c%e5%8a%a0%e7%86%b1%e5%bc%8f%e3%81%af%e4%b8%80%e9%83%a8%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%81%a7%e3%81%ae%e8%87%aa%e5%b8%ad%e3%82%84%e5%b0%82%e7%94%a8%e3%83%96%e3%83%bc%e3%82%b9%e3%81%a7%e3%81%ae%e8%a8%b1%e5%8f%af%e3%81%aa%e3%81%a9%e5%8b%95%e7%b7%9a%e3%81%8c%e7%9f%ad%e7%b8%ae%e3%81%95%e3%82%8c%e3%82%8b%e5%82%be%e5%90%91%e3%81%ab%e3%81%82%e3%82%8a%e4%bc%81%e6%a5%ad%e5%81%b4%e3%81%ae%e7%ae%a1%e7%90%86%e3%82%b3%e3%82%b9%e3%83%88%e4%bd%8e%e4%b8%8b%e3%81%ab%e5%af%84%e4%b8%8e%e3%81%99%e3%82%8b%e5%8f%af%e8%83%bd%e6%80%a7%e3%81%8c%e3%81%82%e3%82%8a%e3%81%be%e3%81%99&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;産業構造の転換と技術革新&#34;
+    &gt;
+        産業構造の転換と技術革新
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#産業構造の転換と技術革新&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 産業構造の転換と技術革新&#34; href=&#34;#%e7%94%a3%e6%a5%ad%e6%a7%8b%e9%80%a0%e3%81%ae%e8%bb%a2%e6%8f%9b%e3%81%a8%e6%8a%80%e8%a1%93%e9%9d%a9%e6%96%b0&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;デバイス開発競争の促進: 日本は加熱式タバコの主要市場（テストベッド）となっており、ここでの優遇政策はデバイス技術（バッテリー、加熱制御、通信機能）のさらなるイノベーションを促し、電子機器産業への波及効果が期待できます。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;消防防災面での定量的メリット&#34;
+    &gt;
+        消防・防災面での定量的メリット
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#消防防災面での定量的メリット&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 消防・防災面での定量的メリット&#34; href=&#34;#%e6%b6%88%e9%98%b2%e9%98%b2%e7%81%bd%e9%9d%a2%e3%81%a7%e3%81%ae%e5%ae%9a%e9%87%8f%e7%9a%84%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;火災リスクのほぼ完全な排除: 燃焼式タバコは依然として建物火災の出火原因の上位です。これを「高級品化」して数を減らすことは、消防出動コストや損害保険の支払額を抑制する直接的な経済効果を生みます。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;2-デメリット懸念事項の深掘り政策市場リスク&#34;
+    &gt;
+        2. デメリット・懸念事項の深掘り：政策・市場リスク
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#2-デメリット懸念事項の深掘り政策市場リスク&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 2. デメリット・懸念事項の深掘り：政策・市場リスク&#34; href=&#34;#2-%e3%83%87%e3%83%a1%e3%83%aa%e3%83%83%e3%83%88%e6%87%b8%e5%bf%b5%e4%ba%8b%e9%a0%85%e3%81%ae%e6%b7%b1%e6%8e%98%e3%82%8a%e6%94%bf%e7%ad%96%e5%b8%82%e5%a0%b4%e3%83%aa%e3%82%b9%e3%82%af&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;ご提示の「※」に加え、実現にあたって最大の障壁となる要素を記述します。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;a-財政市場リスクブラックマーケットの台頭&#34;
+    &gt;
+        A. 財政・市場リスク（ブラックマーケットの台頭）※
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#a-財政市場リスクブラックマーケットの台頭&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor A. 財政・市場リスク（ブラックマーケットの台頭）※&#34; href=&#34;#a-%e8%b2%a1%e6%94%bf%e5%b8%82%e5%a0%b4%e3%83%aa%e3%82%b9%e3%82%af%e3%83%96%e3%83%a9%e3%83%83%e3%82%af%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88%e3%81%ae%e5%8f%b0%e9%a0%ad&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;「燃焼式タバコのプレミアム化（大幅増税）」を行った場合、正規ルートでの購入を諦めた層による**「闇タバコ（密輸品・模造品）」や「個人輸入による脱法タバコ」の市場**が急拡大するリスクがあります。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;海外の失敗事例: オーストラリアや欧州の一部では、極端なタバコ増税が犯罪組織の資金源となる密輸タバコの横行を招きました。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;税収の逸失: プレミアム化しすぎて正規の取引量が激減すれば、狙っていた税収増はおろか、税収が地下に潜り確保できなくなる「ラッファー曲線の罠」に陥る可能性があります。​&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;b-政策的倫理的ハードル公金による補助の是非&#34;
+    &gt;
+        B. 政策的・倫理的ハードル（公金による補助の是非）※
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#b-政策的倫理的ハードル公金による補助の是非&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor B. 政策的・倫理的ハードル（公金による補助の是非）※&#34; href=&#34;#b-%e6%94%bf%e7%ad%96%e7%9a%84%e5%80%ab%e7%90%86%e7%9a%84%e3%83%8f%e3%83%bc%e3%83%89%e3%83%ab%e5%85%ac%e9%87%91%e3%81%ab%e3%82%88%e3%82%8b%e8%a3%9c%e5%8a%a9%e3%81%ae%e6%98%af%e9%9d%9e&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;案に含まれる **「デバイスの購入補助」**は、&lt;strong&gt;政治的に極めて実現困難です。&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;納税者の反発: 非喫煙者の税金（またはタバコ税財源）を使って、嗜好品であり依存性物質であるニコチン摂取デバイスを「補助」することに対し、世論の猛烈な反発が予想されます。「禁煙治療への補助」は医療費削減という大義名分が立ちますが、「喫煙継続のためのデバイス補助」は正当化が困難です。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;c-社会的公平性逆進性の拡大&#34;
+    &gt;
+        C. 社会的公平性（逆進性の拡大）※
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#c-社会的公平性逆進性の拡大&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor C. 社会的公平性（逆進性の拡大）※&#34; href=&#34;#c-%e7%a4%be%e4%bc%9a%e7%9a%84%e5%85%ac%e5%b9%b3%e6%80%a7%e9%80%86%e9%80%b2%e6%80%a7%e3%81%ae%e6%8b%a1%e5%a4%a7&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;タバコ税は低所得者ほど負担感が重い「逆進性」を持つ税です。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;初期投資の壁: 燃焼式タバコユーザーには、高価な加熱式デバイスを購入できない経済層や、高齢でデバイス操作に馴染めない層が多く含まれます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;格差の固定化: デバイスを買える富裕層だけが「減税・低リスク」の恩恵を受け、買えない貧困層が「高額な燃焼式タバコ（または健康リスクの高い安価な代替品）」に留まり続けるという、健康格差と経済格差の拡大を招く恐れがあります。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;d-ハームリダクションの不確実性ゲートウェイとデュアルユース&#34;
+    &gt;
+        D. ハーム・リダクションの不確実性（ゲートウェイとデュアルユース）※
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#d-ハームリダクションの不確実性ゲートウェイとデュアルユース&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor D. ハーム・リダクションの不確実性（ゲートウェイとデュアルユース）※&#34; href=&#34;#d-%e3%83%8f%e3%83%bc%e3%83%a0%e3%83%aa%e3%83%80%e3%82%af%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e4%b8%8d%e7%a2%ba%e5%ae%9f%e6%80%a7%e3%82%b2%e3%83%bc%e3%83%88%e3%82%a6%e3%82%a7%e3%82%a4%e3%81%a8%e3%83%87%e3%83%a5%e3%82%a2%e3%83%ab%e3%83%a6%e3%83%bc%e3%82%b9&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;デュアルユース（併用）の問題: 多くのユーザーが「家では加熱式、外や飲み会では紙巻」といった併用を行っています。この場合、心血管疾患などのリスクは紙巻のみの場合とほぼ変わらないという研究もあり、期待する医療費削減効果が相殺される可能性があります。​&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;若年層へのゲートウェイ: デバイスのガジェット化やファッション化は、非喫煙者の若年層をニコチン依存に誘引する（ゲートウェイ・ドラッグとなる）リスクがWHO等により指摘されています。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;3-総括修正案の提言&#34;
+    &gt;
+        3. 総括・修正案の提言
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#3-総括修正案の提言&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 3. 総括・修正案の提言&#34; href=&#34;#3-%e7%b7%8f%e6%8b%ac%e4%bf%ae%e6%ad%a3%e6%a1%88%e3%81%ae%e6%8f%90%e8%a8%80&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h4 id=&#34;総評&#34;
+    &gt;
+        総評:
+    &lt;/h4&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#総評&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 総評:&#34; href=&#34;#%e7%b7%8f%e8%a9%95&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;この案は「ハーム・リダクション」と「税収確保」を両立させる非常に現実的なアプローチですが、「デバイス補助」の社会的合意形成と**「燃焼式増税による闇市場化」**が致命的なボトルネックとなり得ます。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h3 id=&#34;修正案としての方向性&#34;
+    &gt;
+        修正案としての方向性:
+    &lt;/h3&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#修正案としての方向性&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor 修正案としての方向性:&#34; href=&#34;#%e4%bf%ae%e6%ad%a3%e6%a1%88%e3%81%a8%e3%81%97%e3%81%a6%e3%81%ae%e6%96%b9%e5%90%91%e6%80%a7&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;補助金ではなく「インセンティブ」: デバイス購入補助（直接給付）ではなく、加熱式タバコのスティック自体の税率を燃焼式と劇的に乖離させる（例：燃焼式の半額にする）ことで、ユーザーの経済的動機による自然移行を促す方が、行政コストと批判を抑えられます（現在は税率差を縮める方向ですが、これを逆転させる）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;燃焼式タバコの「免許制」または「販売店限定化」: 価格だけでなく、販売チャネルを極端に制限する（コンビニでの販売禁止、タバコ専門店のみ許可など）ことで、物理的アクセスを制限し、結果として加熱式への移行を促す手法も考えられます。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ご自身の案にある **「燃焼式タバコの高級嗜好品化（プレミアム化）」**は、 &lt;strong&gt;単なる増税だけでなく、葉巻のように「文化的な嗜好品」としての地位を再定義し、大衆消費財としての紙巻タバコを終わらせる&lt;/strong&gt;という意味で、長期的なタバコ政策のゴールとして示唆に富んでいます。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;以上回答。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h2 id=&#34;geminiくんなかなか痛いところをついてくる&#34;
+    &gt;
+        Geminiくん、なかなか痛いところをついてくる
+    &lt;/h2&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#geminiくんなかなか痛いところをついてくる&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor Geminiくん、なかなか痛いところをついてくる&#34; href=&#34;#gemini%e3%81%8f%e3%82%93%e3%81%aa%e3%81%8b%e3%81%aa%e3%81%8b%e7%97%9b%e3%81%84%e3%81%a8%e3%81%93%e3%82%8d%e3%82%92%e3%81%a4%e3%81%84%e3%81%a6%e3%81%8f%e3%82%8b&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;うーん、手厳しい。
+確かにデバイスは安価なPloom（JT）なんかもあるけど、glo Hilo（BAT）とかiQOSシリーズ（フィリップ・モリス）は結構お値段が張る。&lt;/p&gt;
+&lt;p&gt;これらのデバイスの入手もそうだが、燃焼式タバコの中でも、 &lt;strong&gt;「紙巻き」の値上げは庶民にはかなり厳しい。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;考えてもみてほしい。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;iQOS用のTEREAは650円で、紙巻きのセブンスターは800円&lt;/strong&gt;で並ぶ世界線を。&lt;/p&gt;
+&lt;p&gt;最近加熱式に完全に切り替えた自分でも、たまにはセッタ吸いてえなと思って値札見てこの価格差見たら &lt;strong&gt;「は？」&lt;/strong&gt; ともなるわ。&lt;/p&gt;
+&lt;p&gt;あと、&lt;strong&gt;デバイスの価格&lt;/strong&gt;は思ったより効く。&lt;/p&gt;
+&lt;p&gt;現に自分が使用している「iQOS ILUMA i」は &lt;strong&gt;まともに買うと6,980円もする代物&lt;/strong&gt;だ。&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;/posts/images/iqos.webp&#34;
+  alt=&#34;iQOS ILUMA i&#34;
+  
+/&gt;&lt;/p&gt;
+&lt;p&gt;iQOS ILUMA i ワンというエントリーモデルもあるが、それなりの本数を吸うユーザーは上位機種を選んだほうがかなり有用なので、この差異は簡単に埋まるものじゃないな。&lt;/p&gt;
+&lt;div class=&#34;flex align-center gblog-post__anchorwrap&#34;&gt;
+    &lt;h2 id=&#34;まとめこの回答を踏まえた可能性&#34;
+    &gt;
+        まとめ：この回答を踏まえた可能性
+    &lt;/h2&gt;
+    &lt;a data-clipboard-text=&#34;http://localhost:1313/posts/tobacco-harmreduction-perplexity/#まとめこの回答を踏まえた可能性&#34; class=&#34;gblog-post__anchor clip flex align-center&#34; aria-label=&#34;Anchor まとめ：この回答を踏まえた可能性&#34; href=&#34;#%e3%81%be%e3%81%a8%e3%82%81%e3%81%93%e3%81%ae%e5%9b%9e%e7%ad%94%e3%82%92%e8%b8%8f%e3%81%be%e3%81%88%e3%81%9f%e5%8f%af%e8%83%bd%e6%80%a7&#34;&gt;
+        &lt;svg class=&#34;gblog-icon gblog_link&#34;&gt;&lt;use xlink:href=&#34;#gblog_link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;「僕が考えた最強のタバコ政策」は、海外での失敗例や格差の拡大を考えると、なかなか難しいものがある。
+ただ、Geminiくんが提示した、デバイスへのインセンティブや燃焼式の取り扱いを「絞る」という考え方はなかなかナイス。&lt;/p&gt;
+&lt;p&gt;個人的な非燃焼式タバコの推進理由としては、&lt;strong&gt;「せめて加熱式を吸える空間はいっぱい欲しい」&lt;/strong&gt;、
+そして、&lt;strong&gt;「燃焼式タバコを特別なものにして、高付加価値商品を出してほしい」&lt;/strong&gt;
+という、本当に願望まみれの考え方に、元から持っている「ハームリダクション」の思想を合体させたもの。&lt;/p&gt;
+&lt;p&gt;この記事、たばこ議連の議員さんとか官僚の方々がしれっと見て、タバコ業界の逆風に立ち向かって来た立場からの意見も欲しいっすね。
+まあこんな場末に来るわけ無いか。&lt;/p&gt;
+
+            </content>  
+        </entry>
+</feed>

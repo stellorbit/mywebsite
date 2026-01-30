@@ -1,0 +1,48 @@
+baseURL = 'https://www.stellorbit.net/'
+languageCode = 'ja'
+theme = 'Papermod'
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # これをtrueにすることでHTMLの記述が許可されます
+
+[params]
+  Author = "Stellorbit"
+  ShowShareButtons = true
+  [params.homeInfoParams]
+  Title = "軌道を描こう。【改】"
+  Content = "IT・ガジェット関連をはじめ、野球・時事・麻雀など幅広く発信していきます。"
+
+  [[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/stellorbit"
+
+[[menu.main]]
+identifier = "home"
+name = "ホーム"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "genbyai-mark"
+name = "生成AI利用表明マーク"
+url = "/genbyai-mark/"
+weight = 20
+
+[[menu.main]]
+identifier = "privacy-policy"
+name = "プライバシーポリシー"
+url = "/privacy-policy/"
+weight = 30
+
+
+[[menu.main]]
+identifier = "contact"
+name = "お問い合わせ"
+url = "/contact/"
+weight = 40
