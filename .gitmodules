@@ -7,6 +7,3 @@
 [submodule "themes/Geekblog"]
 	path = themes/Geekblog
 	url = https://github.com/thegeeklab/hugo-geekblog
-[submodule "themes/Papermod"]
-	path = themes/Papermod
-	url = https://github.com/adityatelange/hugo-PaperMod.git
