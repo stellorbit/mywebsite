@@ -11,12 +11,12 @@ title = '【自腹レビュー】デロンギ　マルチダイナミックヒ�
 
 **「デロンギ　マルチダイナミックヒーター」** です。
 
-![MDHU12](mdh-i.webp)
+![MDHU12](images/mdh-i.webp)
 
-## 【PR】
+**【PR】購入した製品のAmazonリンク**
 
-&lt;a href="https://www.amazon.co.jp/dp/B08FM4J7YC?tag=stellorbit-22" target="\_blank"&gt;De'Longhi (デロンギ) マルチダイナミックヒーター MDHU12-BK 電気ヒーター ゼロ風暖房 節電 直感操作クリックノブ リモコン付き 表面温度約60℃ 節電 \[8-10畳\] \[ピュアホワイト×マットブラック\] デロンギファミリー登録で5年保証&lt;/a&gt;&lt;a href="https://www.amazon.co.jp/dp/B08FM4J7YC?tag=stellorbit-22" target="\_blank"&gt;&lt;img src="https://m.media-amazon.com/images/I/51RlSWJALHL.*SL200*.jpg" alt="B08FM4J7YC" border="0" /&gt;&lt;/a&gt;
-
+---
+[De'Longhi (デロンギ) マルチダイナミックヒーター MDHU12-BK 電気ヒーター ゼロ風暖房 節電 直感操作クリックノブ リモコン付き 表面温度約60℃ 節電 [8-10畳] [ピュアホワイト×マットブラック] デロンギファミリー登録で5年保証](https://www.amazon.co.jp/dp/B08FM4J7YC?tag=stellorbit-22)
 ---
 
 今回の記事は、こいつを1か月くらい使い倒し、電気アプリ（Looopでんき）と睨めっこしながら奮闘した記録とレビューです。
@@ -49,7 +49,7 @@ title = '【自腹レビュー】デロンギ　マルチダイナミックヒ�
 
 これまで自室の温かさを牽引してきたのは、**ガスファンヒーター**でした。
 
-![ガスファンヒーターとMDHU12が並んでいる写真](heaterfeatmdh.webp)
+![ガスファンヒーターとMDHU12が並んでいる写真](images/heaterfeatmdh.webp)
 
 ベテランと新入りのツーショット。
 
@@ -271,9 +271,7 @@ MDHのエネルギーを損失させずに使うべく、断熱シートを貼�
 【PR】Amazon
 
 ---
-
-&lt;a href="<https://www.amazon.co.jp/dp/B07H47WW5P?tag=stellorbit-22>" target="\_blank"&gt;スリーアップ ミニパネルヒーター トイレ・脱衣所専用 300W ポカポカ暖 空気を汚さない 壁掛け対応 安全設計 ミニヒート マットホワイト PHT-1731MW&lt;/a&gt;&lt;br /&gt;&lt;a href="<https://www.amazon.co.jp/dp/B07H47WW5P?tag=stellorbit-22>" target="\_blank"&gt;&lt;img src="[https://m.media-amazon.com/images/I/61ATSmgmisL.\\\_SL75\\\_.jpg](https://m.media-amazon.com/images/I/61ATSmgmisL.%5C_SL75%5C_.jpg)" alt="B07H47WW5P" border="0" /&gt;&lt;/a&gt;
-
+[TEKNOS パネルヒーター&壁掛との2WAY(寒冷地仕様・シーズ管) SP-003W](https://www.amazon.co.jp/dp/B0FSK8J61M?tag=stellorbit-22)
 ---
 
 こちらはスポットでの暖房特化ですね。
@@ -283,9 +281,7 @@ MDHのエネルギーを損失させずに使うべく、断熱シートを貼�
 【PR】Amazon
 
 ---
-
-&lt;a href="<https://www.amazon.co.jp/dp/B01KO0ILXI?tag=stellorbit-22>" target="\_blank"&gt;De'Longhi (デロンギ) コンベクターヒーター HXJ60L12 電気ヒーター 窓際暖房 速暖 乾燥しにくい 燃料補充不要 チャイルドロック 安全設計 \[8-10畳\] \[グレー\] デロンギファミリー登録で5年保証&lt;/a&gt;&lt;br /&gt;&lt;a href="<https://www.amazon.co.jp/dp/B01KO0ILXI?tag=stellorbit-22>" target="\_blank"&gt;&lt;img src="[https://m.media-amazon.com/images/I/41CdFAjwAzL.\\\_SL200\\\_.jpg](https://m.media-amazon.com/images/I/41CdFAjwAzL.%5C_SL200%5C_.jpg)" alt="B01KO0ILXI" border="0" /&gt;&lt;/a&gt;
-
+[De'Longhi (デロンギ) コンベクターヒーター HXJ60L12 電気ヒーター 窓際暖房 速暖 乾燥しにくい 燃料補充不要 チャイルドロック 安全設計 [8-10畳] [グレー] デロンギファミリー登録で5年保証](https://www.amazon.co.jp/dp/B01KO0ILXI?tag=stellorbit-22)
 ---
 
 窓際に置いてコールドドラフトを防ぐことに特化したものらしいですが・・・
@@ -363,9 +359,7 @@ MDHのエネルギーを損失させずに使うべく、断熱シートを貼�
 【PR】**2025/2/1時点でIDH15(Wi-Fi非対応モデル)が59,000円＋ポイント10%！！**
 
 ---
-
-&lt;a href="<https://www.amazon.co.jp/dp/B0DF2FTTL7?tag=stellorbit-22>" target="\_blank"&gt;デロンギ マルチダイナミックヒーターソラーレ 最大13畳 ゼロ風暖房 オイルレスヒーター ピュアホワイト IDH15-WG 【デロンギファミリー登録で5年保証、修理も原則72時間以内対応】&lt;/a&gt;&lt;br /&gt;&lt;a href="<https://www.amazon.co.jp/dp/B0DF2FTTL7?tag=stellorbit-22>" target="\_blank"&gt;&lt;img src="[https://m.media-amazon.com/images/I/41r8iVcm4SL.\\\_SL160\\\_.jpg](https://m.media-amazon.com/images/I/41r8iVcm4SL.%5C_SL160%5C_.jpg)" alt="B0DF2FTTL7" border="0" /&gt;&lt;/a&gt;
-
+**[デロンギ マルチダイナミックヒーターソラーレ 最大13畳 ゼロ風暖房 オイルレスヒーター ピュアホワイト IDH15-WG 【デロンギファミリー登録で5年保証、修理も原則72時間以内対応】](https://www.amazon.co.jp/dp/B0DF2FTTL7?tag=stellorbit-22)**
 ---
 
 ### Wi-Fiモデルは個人的に非推奨
@@ -415,7 +409,7 @@ IoT関連は仕方がないのかもしれませんが、だいたい2.4GHz・WP
 
 サーキュレーターや加湿器を適切に置くために**汚部屋を掃除**したり・・・
 
-![電気代を見られるアプリで電気代が高くなっていることを示した図](kwh.webp)
+![電気代を見られるアプリで電気代が高くなっていることを示した図](images/kwh.webp)
 
 しかし、まだ闘いはこれから。
 
