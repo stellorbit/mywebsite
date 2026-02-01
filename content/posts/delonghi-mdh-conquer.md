@@ -422,6 +422,6 @@ IoT関連は仕方がないのかもしれませんが、だいたい2.4GHz・WP
 ここまで読んでいただき、ありがとうございます。
 
 それでは。
-[mdh]: /content/images/posts/mdh-i.webp
-[heater]: /content/images/posts/heaterfeatmdh.webp
-[kwh]: /content/images/posts/kwh.webp
+[mdh]: ./content/images/posts/mdh-i.webp
+[heater]: ./content/images/posts/heaterfeatmdh.webp
+[kwh]: ./content/images/posts/kwh.webp
