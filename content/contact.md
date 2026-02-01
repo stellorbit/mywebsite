@@ -6,10 +6,22 @@ draft: false
 
 以下のフォームよりお問い合わせください。通常2〜3営業日以内にご返信いたします。
 
+<form id="contact-form" class="contact-form">
 <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="5b13b95c-dcb4-44d8-90b2-9e698a20966f">
-  <input type="text" name="名前" required>
-  <input type="email" name="メールアドレス" required>
-  <textarea name="本文" required></textarea>
+
+<div class="form-group">
+    <label for="name">お名前</label>
+    <input type="text" name="名前" required>
+</div>
+
+<div class="form-group">
+    <label for="email">メールアドレス</label>
+    <input type="email" name="email" placeholder="example@stellorbit.net" required>
+</div>
+
+<div class="form-group">
+    <label for="message">お問い合わせ内容</label>
+    <textarea name="message" required></textarea>
   <button type="送信">Submit Form</button>
 </form>
