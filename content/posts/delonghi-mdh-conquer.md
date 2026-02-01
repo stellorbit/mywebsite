@@ -409,7 +409,7 @@ IoT関連は仕方がないのかもしれませんが、だいたい2.4GHz・WP
 
 サーキュレーターや加湿器を適切に置くために**汚部屋を掃除**したり・・・
 
-![電気代を見られるアプリで電気代が高くなっていることを示した図]([kwh]])
+![電気代を見られるアプリで電気代が高くなっていることを示した図]([kwh])
 
 しかし、まだ闘いはこれから。
 
@@ -423,3 +423,5 @@ IoT関連は仕方がないのかもしれませんが、だいたい2.4GHz・WP
 
 それでは。
 [mdh]: /content/images/posts/mdh-i.webp
+[heater]: /content/images/posts/heaterfeatmdh.webp
+[kwh]: /content/images/posts/kwh.webp
