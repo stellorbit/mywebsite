@@ -22,6 +22,6 @@ draft: false
 
 <div class="form-group">
     <label for="message">お問い合わせ内容</label>
-    <textarea name="message" required></textarea>
-  <button type="送信">Submit Form</button>
+    <textarea name="message" required></textarea><br>
+  <button type="submit">送信</button>
 </form>
