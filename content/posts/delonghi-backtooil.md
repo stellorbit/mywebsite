@@ -123,33 +123,3 @@ Looopでんきのアプリで監視していると、1日あたりの電気使�
 と、過去の職場や声優現場で培った過去の経験からこう語る。
 
 まだ、冬は終わらない。つまり、すてらびっと監督の戦いもまた、終わらないのである。
-
-id: 29854f21ea0c4cf9b9ae0efd8d474ae1
-parent_id: a440bc9d2f324a2b81f6befb2ea6404b
-created_time: 2026-02-06T03:14:28.756Z
-updated_time: 2026-02-06T05:20:28.856Z
-is_conflict: 0
-latitude: 35.33765500
-longitude: 139.48700500
-altitude: 62.1000
-author: 
-source_url: 
-is_todo: 0
-todo_due: 0
-todo_completed: 0
-source: joplin
-source_application: net.cozic.joplin-mobile
-application_data: 
-order: 1770347668754
-user_created_time: 2026-02-06T03:14:28.756Z
-user_updated_time: 2026-02-06T05:17:35.196Z
-encryption_cipher_text: 
-encryption_applied: 0
-markup_language: 1
-is_shared: 0
-share_id: 
-conflict_original_id: 
-master_key_id: 
-user_data: 
-deleted_time: 0
-type_: 1
