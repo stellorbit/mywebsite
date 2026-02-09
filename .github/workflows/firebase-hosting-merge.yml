@@ -46,4 +46,4 @@ jobs:
 
       - name: Deploy to Firebase
         # ▼ --project の後ろを「新しいプロジェクトID」に書き換える
-        run: firebase deploy --only hosting --project your-new-project-id
+        run: firebase deploy --only hosting --project stellorbitnet
