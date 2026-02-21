@@ -6,8 +6,62 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- 0.155.1</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Feb 2026 14:38:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 16:46:27 +0900</lastBuildDate>
     <atom:link href="https://www.stellorbit.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugoとFirebaseでSSGこさえて、出先で書く環境を整えた話。</title>
+      <link>https://www.stellorbit.net/posts/write-anywhere/</link>
+      <pubDate>Sun, 15 Feb 2026 16:46:27 +0900</pubDate>
+      <guid>https://www.stellorbit.net/posts/write-anywhere/</guid>
+      <description>&lt;h1 id=&#34;序章自語り出先でも書ける環境を構築完了&#34;&gt;序章自語り：出先でも書ける環境を構築完了&lt;/h1&gt;
+&lt;p&gt;このサイトを立ち上げて1-2か月、GitHubにMarkDownをアップロードすることによって勝手に記事ができる仕組みを作ることができました。&lt;/p&gt;
+&lt;p&gt;ちょっとめんどかったですが、これで電車の中でも記事を書けます。&lt;/p&gt;
+&lt;p&gt;何を隠そう、実は&lt;a href=&#34;delonghi-mdh-conquer.md&#34;&gt;デロンギMDHの野球ニュース風記事&lt;/a&gt;は出先の地下鉄内で書いたものです。&lt;/p&gt;
+&lt;p&gt;画像があまり上げられず文字ばかりになってしまいましたが、そこは追々手を加えるとして、先にガーっと文章だけ書いてアップロードしました。&lt;/p&gt;
+&lt;p&gt;さて、この記事ではこのサイトの「ある仕組み」について語ろうと思っています。&lt;/p&gt;
+&lt;h2 id=&#34;webサイト作るのがめんどいと前々から思っていた&#34;&gt;Webサイト作るのがめんどいと前々から思っていた&lt;/h2&gt;
+&lt;p&gt;これまではAWSだったりレンタルサーバー等でWordPressを使ってWebサイトを構築していたのですが、&lt;strong&gt;セキュリティ面&lt;/strong&gt;だとか&lt;strong&gt;高速化&lt;/strong&gt;だとか、いろいろ面倒な部分がありました。&lt;/p&gt;
+&lt;p&gt;特にWordPressだと、あまり知識のないまま高速化しようとしてプラグインマシマシで&lt;strong&gt;逆に遅くなる&lt;/strong&gt;とかいうのはチャメシ・インシデントでした。&lt;/p&gt;
+&lt;p&gt;プラグインマシマシ以外の解決方法だと、&lt;strong&gt;設定ファイルの書き換え&lt;/strong&gt;と&lt;strong&gt;Webサイトを動かすエンジン自体の再起動の繰り返し&lt;/strong&gt;という高度な知識と地味な作業の永遠リピートでした。&lt;/p&gt;
+&lt;p&gt;そこでnoteやはてなブログなんかに記事を上げていたのですが、**「月1000円ほどの課金しないと独自ドメインが使えない」「収益化が自由にできない」**など、かなりの制約がありました。&lt;/p&gt;
+&lt;p&gt;そんな中でぼんやり思っていたんです。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「もうちょっと軽くて話が早くて、独自ドメイン使えて、収益化もできて、セキュリティ的にも問題なくて・・・Markdownとかで文章書けたらいいなー」&lt;/strong&gt; と、都合の良すぎる解決策を。&lt;/p&gt;
+&lt;p&gt;そこで解決策をAIチャットに聞いてみたら、「SSR」だの「SSG」だのと、カードのレアリティみたいな字面だけど、なかなかよさそうなものが解説されているサイトを発見しました。&lt;/p&gt;
+&lt;p&gt;2つ書いてありますが1個は割愛して、個人的に &lt;strong&gt;「ブログサイト＋αで固定サイト」&lt;/strong&gt; という方式をとりたかったので、それに最適だといわれる &lt;strong&gt;「SSG」&lt;/strong&gt; をとりました。&lt;/p&gt;
+&lt;h3 id=&#34;ssgとは&#34;&gt;SSGとは？&lt;/h3&gt;
+&lt;p&gt;SSGは &lt;strong&gt;「静的サイトジェネレーター（Static Site Generator）」&lt;/strong&gt; の略称で、自分もあまり意味は掴めていないのですが、&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;「あらかじめ作ってあるやつを呼び出して高速化する」&lt;/strong&gt; 仕組みっぽいです。&lt;/p&gt;
+&lt;h4 id=&#34;これまでのwebサイトとの違い&#34;&gt;これまでのWebサイトとの違い&lt;/h4&gt;
+&lt;p&gt;巷で溢れてるWebサイトの多くは、&lt;strong&gt;アクセスするたびにページの構成要素をサーバーから読み込んでいる&lt;/strong&gt;ものが多いです。&lt;/p&gt;
+&lt;p&gt;建物とか製造に例えると、Webサイトを構成する資材を&lt;strong&gt;いちいち運んできて、現場（ユーザーのPCやスマホなど）で組み立てている&lt;/strong&gt;ということです。&lt;/p&gt;
+&lt;p&gt;非常にオーソドックスなものですが、この形式の問題点は、ろくに対策をしないと &lt;strong&gt;「体感で遅く感じる」&lt;/strong&gt; ことです。&lt;/p&gt;
+&lt;p&gt;いくら回線が早くなっても、その分&lt;strong&gt;コンテンツはリッチに、そして重く&lt;/strong&gt;なっていきます。&lt;/p&gt;
+&lt;p&gt;更に&lt;strong&gt;提供元のサーバーの速度やユーザーに届くまでの経路に左右される&lt;/strong&gt;ため、どっかで貧弱なルートを辿ると、いくら&lt;strong&gt;10Gbpsの光回線でもタルくなります。&lt;/strong&gt; まあ自分10Gbpsは見送ったんですが。&lt;/p&gt;
+&lt;p&gt;それを解決するために、&lt;strong&gt;CloudflareなどのCDN（コンテンツ配信ネットワーク、読んで字のごとし）を経由&lt;/strong&gt;したり、ユーザーがキャッシュを持つより先にサーバー上に&lt;strong&gt;最初からキャッシュを形成&lt;/strong&gt;して高速化を図る等、様々な工夫が図られるのですが・・・&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;正直めんどくさいです。&lt;/strong&gt; メインの記事を書くまでにたどり着く工数が多すぎて挫折することもしばしばありました。&lt;/p&gt;
+&lt;h4 id=&#34;ssgの利点&#34;&gt;SSGの利点&lt;/h4&gt;
+&lt;p&gt;対してSSGでは、&lt;strong&gt;読み込むものをあらかじめ決めて組み立ててあります。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;言わばこちらは、&lt;strong&gt;「プレハブの建屋を丸ごと運んでくる」&lt;/strong&gt; とか、&lt;strong&gt;「完成品をそのまま運んでくる」&lt;/strong&gt; 感じですね。&lt;/p&gt;
+&lt;p&gt;例えば車や家なんかを注文したとして、それが&lt;strong&gt;整備済みの完成品としてそのまま家に届く&lt;/strong&gt;イメージです。&lt;/p&gt;
+&lt;p&gt;なんかのゲームで「組みあがった住宅をヘリで丸ごと運ぶ」みたいなのありましたが、そんな感じです。&lt;/p&gt;
+&lt;p&gt;なので、とにかく速い。&lt;/p&gt;
+&lt;p&gt;この仕組みを使えば、阿部寛のホームページ並みの速さのサイトを誰でも作れるわけです。&lt;/p&gt;
+&lt;p&gt;そう考えると、あのページ一体ナニモンよ。&lt;/p&gt;
+&lt;h4 id=&#34;ssgのデメリット速報性に弱い&#34;&gt;SSGのデメリット①：速報性に弱い&lt;/h4&gt;
+&lt;p&gt;メリットだらけかと思われますが、当然デメリットもあります。&lt;/p&gt;
+&lt;p&gt;この記事はAIツール「Perplexity」に聞き込みをしながら書いているのですが、その中でも個人的にデメリットに感じる部分がありました。&lt;/p&gt;
+&lt;p&gt;自分にはあまり関係のない項目ですが、&lt;strong&gt;ニュースサイトや速報系のサイトと相性がメッチャ悪いです。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;例えば&lt;strong&gt;YahooニュースみたいなサイトをSSGで作るとかかなり厳しい&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;先述の通り、SSGは &lt;strong&gt;「完成品を運んでくる」&lt;/strong&gt; タイプなのですが、完成品は&lt;strong&gt;前もって組み立てなければいけません。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;つまり、例えば自分のこのサイトの場合だと、&lt;/p&gt;
+&lt;p&gt;大まかな工程として、 &lt;strong&gt;「Markdownファイルを新規作成→日付データを入れる→本文を書く→ 組み立てる →公開」&lt;/strong&gt; という工程を経ています。&lt;/p&gt;
+&lt;p&gt;超高速で表示させるために前もって「組み立てる」という手順が必要で、これだけで十数秒はかかります。&lt;/p&gt;
+&lt;p&gt;この「組み立て」の工程のおかげで、前もってページを作っておいてそこから追記する野球の「一球速報」みたいなのでも&lt;strong&gt;ちょっと遅くなります。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;つまり、速報性に欠けるものは相性がよろしくないんです。&lt;/p&gt;
+&lt;h5 id=&#34;デメリットが関係ない人&#34;&gt;デメリットが関係ない人①&lt;/h5&gt;
+&lt;p&gt;もちろん、このデメリット、関係ない人も大勢います。&lt;/p&gt;
+&lt;p&gt;例えば一例を挙げるなら、&lt;/p&gt;</description>
+    </item>
     <item>
       <title>【レビュー前日譚・野球記事風】何故「オイルヒーター」を選んだのか。監督が期待する「ベテランの利点」と今後の展望</title>
       <link>https://www.stellorbit.net/posts/delonghi-backtooil/</link>
