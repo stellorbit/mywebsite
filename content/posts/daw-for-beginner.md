@@ -558,6 +558,7 @@ Windows版の脱MFCと、Native範囲だけでもAMD Ryzenのサポートをし�
 ちなみに**日本プロDAW付属不信協会**の目線としては結構いいです。古いけどちゃんと働いてくれるし、余計な機能がない。
 
 追記：対応ワークステーション機種の中になんと[Ryzen Threadripper搭載機](https://kb.avid.com/pkb/articles/Knowledge/HP-Z6-G5-A-Workstation-Slot-Order-Configuration)が出現。Ryzen対応も近い？
+
 ### FL Studio
 
 **上3つと設計思想がまるで違う。** EDMを使ってる人がだいたいこれを使ってるイメージ。
