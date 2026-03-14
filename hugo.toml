@@ -43,7 +43,6 @@ identifier = "tools"
 name = "ツール"
 url = "/tools/"
 
-weight = 20
 [[menu.main]]
 identifier = "privacy-policy"
 name = "プライバシーポリシー"
