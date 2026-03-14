@@ -17,7 +17,7 @@ Windowsの2026年問題対応状況をチェックするツール。
 
 ### ダウンロード
 
-[こちら](assets/20260314_092729_CA2023Check.exe)
+[こちら](assets/CA2023Check.zip)
 
 [GitHub](https://github.com/stellorbit/CA2023Check)
 
@@ -27,7 +27,7 @@ CapsLockキーに左Ctrlをアサインし、CapsLockを黙らせるCLIツール
 
 ### ダウンロード
 
-[こちら（exe実行ファイル）](assets/20260314_092446_CapsLockDisabler.exe)
+[こちら（zip 7.8MB）](assets/CapsLockDisabler.zip)
 
 [GitHub](https://github.com/stellorbit/CapsLockDisabler)
 
