@@ -42,16 +42,17 @@ weight = 20
 identifier = "tools"
 name = "ツール"
 url = "/tools/"
+weight = 30
 
 [[menu.main]]
 identifier = "privacy-policy"
 name = "プライバシーポリシー"
 url = "/privacy-policy/"
-weight = 30
+weight = 40
 
 
 [[menu.main]]
 identifier = "contact"
 name = "お問い合わせ"
 url = "/contact/"
-weight = 40
+weight = 50
