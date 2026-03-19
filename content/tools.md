@@ -14,11 +14,9 @@ draft = false
 
 ## Win11Optimizer Ver.2026.03
 
-CapsLockキーに左Ctrlをアサインし、CapsLockを黙らせるCLIツール。
+Windows11のプライバシー・UI設定を設定できるツール。
 
 ### ダウンロード
-
-[Win11Optimizer 2026.03(zip 53.8MB)](/downloads/Win11Optimizer_2603.zip)
 
 [GitHub](https://github.com/stellorbit/Win11Optimizer)
 
