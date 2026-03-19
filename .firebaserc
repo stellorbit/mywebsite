@@ -1,8 +1,5 @@
 {
   "projects": {
-    "default": "stellorbitnet",
-    "n": "stellorbitnet"
-  },
-  "targets": {},
-  "etags": {}
+    "default": "stellorbitnet"
+  }
 }

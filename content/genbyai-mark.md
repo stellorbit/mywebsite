@@ -4,11 +4,11 @@ draft = false
 title = '生成AI利用表明マーク'
 +++
 
-![生成AI利用表明マーク](/images/gbam.webp)
+![生成AI利用表明マーク][gbamimg]
 
 ## ダウンロード
 
-[利用表明マークセット(GBAM21NC.zip) 206KB](/assets/GBAM21NC.zip)
+[利用表明マークセット(GBAM21NC.zip) 206KB][gbamsetzip]
 
 ### 内容物
 
@@ -116,3 +116,7 @@ title = '生成AI利用表明マーク'
 **もしあなたが生成AIを使って何かを成し遂げた時は、このマークを使ってください。**
 
 できればクレジット表記やWebサイトの案内もしていただけると嬉しいです。
+
+
+[gbamimg]: /images/gbam.webp
+[gbamsetzip]: /assets/GBAM21NC.zip

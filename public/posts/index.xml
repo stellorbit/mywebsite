@@ -1,361 +1,165 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
+    <title>Posts on 軌道を描こう【改】</title>
     <link>https://www.stellorbit.net/posts/</link>
-    <description>Recent content in Posts on </description>
-    <generator>Hugo -- 0.155.1</generator>
+    <description>Recent content in Posts on 軌道を描こう【改】</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 15 Feb 2026 16:46:27 +0900</lastBuildDate>
-    <atom:link href="https://www.stellorbit.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025-2026 Stellorbit.net. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 01 Mar 2026 04:03:40 +0900</lastBuildDate><atom:link href="https://www.stellorbit.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【冒頭にお知らせあり】Linux生活は6日で終焉。苦しめられ、時間を溶かし、振り回された全記録。</title>
+      <link>https://www.stellorbit.net/posts/backtowin11/</link>
+      <pubDate>Sun, 01 Mar 2026 04:03:40 +0900</pubDate>
+      
+      <guid>https://www.stellorbit.net/posts/backtowin11/</guid>
+      <description>
+        
+          
+            &lt;h2 id=&#34;まずは活動名変更のお知らせ&#34;&gt;まずは、活動名変更のお知らせ。&lt;/h2&gt;
+&lt;p&gt;自分は元々、「ひうが」というHN、更に別名として「猛攻型ことねP」として活動していました。
+しかし、リアルでの懸念事項があり、急遽「Stellorbit（すてらびっと）」という名前に変更し、先日までこの名前をメインに活動してきました。&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>hugoとFirebaseでSSGこさえて、出先で書く環境を整えた話。</title>
       <link>https://www.stellorbit.net/posts/write-anywhere/</link>
       <pubDate>Sun, 15 Feb 2026 16:46:27 +0900</pubDate>
+      
       <guid>https://www.stellorbit.net/posts/write-anywhere/</guid>
-      <description>&lt;h1 id=&#34;序章自語り出先でも書ける環境を構築完了&#34;&gt;序章自語り：出先でも書ける環境を構築完了&lt;/h1&gt;
+      <description>
+        
+          
+            &lt;h1 id=&#34;序章自語り出先でも書ける環境を構築完了&#34;&gt;序章自語り：出先でも書ける環境を構築完了&lt;/h1&gt;
 &lt;p&gt;このサイトを立ち上げて1-2か月、GitHubにMarkDownをアップロードすることによって勝手に記事ができる仕組みを作ることができました。&lt;/p&gt;
-&lt;p&gt;ちょっとめんどかったですが、これで電車の中でも記事を書けます。&lt;/p&gt;
-&lt;p&gt;何を隠そう、実は&lt;a href=&#34;delonghi-mdh-conquer.md&#34;&gt;デロンギMDHの野球ニュース風記事&lt;/a&gt;は出先の地下鉄内で書いたものです。&lt;/p&gt;
-&lt;p&gt;画像があまり上げられず文字ばかりになってしまいましたが、そこは追々手を加えるとして、先にガーっと文章だけ書いてアップロードしました。&lt;/p&gt;
-&lt;p&gt;さて、この記事ではこのサイトの「ある仕組み」について語ろうと思っています。&lt;/p&gt;
-&lt;h2 id=&#34;webサイト作るのがめんどいと前々から思っていた&#34;&gt;Webサイト作るのがめんどいと前々から思っていた&lt;/h2&gt;
-&lt;p&gt;これまではAWSだったりレンタルサーバー等でWordPressを使ってWebサイトを構築していたのですが、&lt;strong&gt;セキュリティ面&lt;/strong&gt;だとか&lt;strong&gt;高速化&lt;/strong&gt;だとか、いろいろ面倒な部分がありました。&lt;/p&gt;
-&lt;p&gt;特にWordPressだと、あまり知識のないまま高速化しようとしてプラグインマシマシで&lt;strong&gt;逆に遅くなる&lt;/strong&gt;とかいうのはチャメシ・インシデントでした。&lt;/p&gt;
-&lt;p&gt;プラグインマシマシ以外の解決方法だと、&lt;strong&gt;設定ファイルの書き換え&lt;/strong&gt;と&lt;strong&gt;Webサイトを動かすエンジン自体の再起動の繰り返し&lt;/strong&gt;という高度な知識と地味な作業の永遠リピートでした。&lt;/p&gt;
-&lt;p&gt;そこでnoteやはてなブログなんかに記事を上げていたのですが、**「月1000円ほどの課金しないと独自ドメインが使えない」「収益化が自由にできない」**など、かなりの制約がありました。&lt;/p&gt;
-&lt;p&gt;そんな中でぼんやり思っていたんです。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「もうちょっと軽くて話が早くて、独自ドメイン使えて、収益化もできて、セキュリティ的にも問題なくて・・・Markdownとかで文章書けたらいいなー」&lt;/strong&gt; と、都合の良すぎる解決策を。&lt;/p&gt;
-&lt;p&gt;そこで解決策をAIチャットに聞いてみたら、「SSR」だの「SSG」だのと、カードのレアリティみたいな字面だけど、なかなかよさそうなものが解説されているサイトを発見しました。&lt;/p&gt;
-&lt;p&gt;2つ書いてありますが1個は割愛して、個人的に &lt;strong&gt;「ブログサイト＋αで固定サイト」&lt;/strong&gt; という方式をとりたかったので、それに最適だといわれる &lt;strong&gt;「SSG」&lt;/strong&gt; をとりました。&lt;/p&gt;
-&lt;h3 id=&#34;ssgとは&#34;&gt;SSGとは？&lt;/h3&gt;
-&lt;p&gt;SSGは &lt;strong&gt;「静的サイトジェネレーター（Static Site Generator）」&lt;/strong&gt; の略称で、自分もあまり意味は掴めていないのですが、&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「あらかじめ作ってあるやつを呼び出して高速化する」&lt;/strong&gt; 仕組みっぽいです。&lt;/p&gt;
-&lt;h4 id=&#34;これまでのwebサイトとの違い&#34;&gt;これまでのWebサイトとの違い&lt;/h4&gt;
-&lt;p&gt;巷で溢れてるWebサイトの多くは、&lt;strong&gt;アクセスするたびにページの構成要素をサーバーから読み込んでいる&lt;/strong&gt;ものが多いです。&lt;/p&gt;
-&lt;p&gt;建物とか製造に例えると、Webサイトを構成する資材を&lt;strong&gt;いちいち運んできて、現場（ユーザーのPCやスマホなど）で組み立てている&lt;/strong&gt;ということです。&lt;/p&gt;
-&lt;p&gt;非常にオーソドックスなものですが、この形式の問題点は、ろくに対策をしないと &lt;strong&gt;「体感で遅く感じる」&lt;/strong&gt; ことです。&lt;/p&gt;
-&lt;p&gt;いくら回線が早くなっても、その分&lt;strong&gt;コンテンツはリッチに、そして重く&lt;/strong&gt;なっていきます。&lt;/p&gt;
-&lt;p&gt;更に&lt;strong&gt;提供元のサーバーの速度やユーザーに届くまでの経路に左右される&lt;/strong&gt;ため、どっかで貧弱なルートを辿ると、いくら&lt;strong&gt;10Gbpsの光回線でもタルくなります。&lt;/strong&gt; まあ自分10Gbpsは見送ったんですが。&lt;/p&gt;
-&lt;p&gt;それを解決するために、&lt;strong&gt;CloudflareなどのCDN（コンテンツ配信ネットワーク、読んで字のごとし）を経由&lt;/strong&gt;したり、ユーザーがキャッシュを持つより先にサーバー上に&lt;strong&gt;最初からキャッシュを形成&lt;/strong&gt;して高速化を図る等、様々な工夫が図られるのですが・・・&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;正直めんどくさいです。&lt;/strong&gt; メインの記事を書くまでにたどり着く工数が多すぎて挫折することもしばしばありました。&lt;/p&gt;
-&lt;h4 id=&#34;ssgの利点&#34;&gt;SSGの利点&lt;/h4&gt;
-&lt;p&gt;対してSSGでは、&lt;strong&gt;読み込むものをあらかじめ決めて組み立ててあります。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;言わばこちらは、&lt;strong&gt;「プレハブの建屋を丸ごと運んでくる」&lt;/strong&gt; とか、&lt;strong&gt;「完成品をそのまま運んでくる」&lt;/strong&gt; 感じですね。&lt;/p&gt;
-&lt;p&gt;例えば車や家なんかを注文したとして、それが&lt;strong&gt;整備済みの完成品としてそのまま家に届く&lt;/strong&gt;イメージです。&lt;/p&gt;
-&lt;p&gt;なんかのゲームで「組みあがった住宅をヘリで丸ごと運ぶ」みたいなのありましたが、そんな感じです。&lt;/p&gt;
-&lt;p&gt;なので、とにかく速い。&lt;/p&gt;
-&lt;p&gt;この仕組みを使えば、阿部寛のホームページ並みの速さのサイトを誰でも作れるわけです。&lt;/p&gt;
-&lt;p&gt;そう考えると、あのページ一体ナニモンよ。&lt;/p&gt;
-&lt;h4 id=&#34;ssgのデメリット速報性に弱い&#34;&gt;SSGのデメリット①：速報性に弱い&lt;/h4&gt;
-&lt;p&gt;メリットだらけかと思われますが、当然デメリットもあります。&lt;/p&gt;
-&lt;p&gt;この記事はAIツール「Perplexity」に聞き込みをしながら書いているのですが、その中でも個人的にデメリットに感じる部分がありました。&lt;/p&gt;
-&lt;p&gt;自分にはあまり関係のない項目ですが、&lt;strong&gt;ニュースサイトや速報系のサイトと相性がメッチャ悪いです。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;例えば&lt;strong&gt;YahooニュースみたいなサイトをSSGで作るとかかなり厳しい&lt;/strong&gt;です。&lt;/p&gt;
-&lt;p&gt;先述の通り、SSGは &lt;strong&gt;「完成品を運んでくる」&lt;/strong&gt; タイプなのですが、完成品は&lt;strong&gt;前もって組み立てなければいけません。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;つまり、例えば自分のこのサイトの場合だと、&lt;/p&gt;
-&lt;p&gt;大まかな工程として、 &lt;strong&gt;「Markdownファイルを新規作成→日付データを入れる→本文を書く→ 組み立てる →公開」&lt;/strong&gt; という工程を経ています。&lt;/p&gt;
-&lt;p&gt;超高速で表示させるために前もって「組み立てる」という手順が必要で、これだけで十数秒はかかります。&lt;/p&gt;
-&lt;p&gt;この「組み立て」の工程のおかげで、前もってページを作っておいてそこから追記する野球の「一球速報」みたいなのでも&lt;strong&gt;ちょっと遅くなります。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;つまり、速報性に欠けるものは相性がよろしくないんです。&lt;/p&gt;
-&lt;h5 id=&#34;デメリットが関係ない人&#34;&gt;デメリットが関係ない人①&lt;/h5&gt;
-&lt;p&gt;もちろん、このデメリット、関係ない人も大勢います。&lt;/p&gt;
-&lt;p&gt;例えば一例を挙げるなら、&lt;/p&gt;</description>
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>【レビュー前日譚・野球記事風】何故「オイルヒーター」を選んだのか。監督が期待する「ベテランの利点」と今後の展望</title>
       <link>https://www.stellorbit.net/posts/delonghi-backtooil/</link>
       <pubDate>Fri, 06 Feb 2026 14:38:00 +0900</pubDate>
+      
       <guid>https://www.stellorbit.net/posts/delonghi-backtooil/</guid>
-      <description>&lt;h2 id=&#34;あまりにも早すぎる判断その裏にあった葛藤&#34;&gt;あまりにも早すぎる判断、その裏にあった葛藤&lt;/h2&gt;
+      <description>
+        
+          
+            &lt;h2 id=&#34;あまりにも早すぎる判断その裏にあった葛藤&#34;&gt;あまりにも早すぎる判断、その裏にあった葛藤&lt;/h2&gt;
 &lt;p&gt;およそ40日間の末に出した結論は、あまりにも早く残酷だった。&lt;/p&gt;
 &lt;p&gt;新進気鋭の若手である「デロンギ マルチダイナミックヒーター MDHU12」のレンタル契約解除が6日、発表されたのである。&lt;/p&gt;
-&lt;p&gt;ただし、これは何も突然の話ではない。&lt;/p&gt;
-&lt;p&gt;予兆として、契約解除の2日前となる4日、同メーカーのオイルヒーターである「デロンギ ベルカルド」の支配下契約を発表していた。&lt;/p&gt;
-&lt;h3 id=&#34;新機軸を捨ててまで選んだ型落ち&#34;&gt;新機軸を捨ててまで選んだ「型落ち」&lt;/h3&gt;
-&lt;p&gt;一見、メリットがあまりなさそうな契約であることは誰の目から見ても明らかだ。
-デロンギを返却したとしても、オイルレスのほうが利点は多そうなものである。&lt;/p&gt;
-&lt;h4 id=&#34;オイルがないことによるメリット市場の変化&#34;&gt;「オイルがない」ことによるメリット、市場の変化&lt;/h4&gt;
-&lt;p&gt;「マルチダイナミックヒーター（以下MDH）」はオイルが封入されておらず、代わりに金属モジュールを熱して部屋を暖める。&lt;/p&gt;
-&lt;p&gt;その構造の変化により、オイルヒーターの2倍の速暖性と、本体重量の軽量化、バランスの改善というメリットを手に入れた。&lt;/p&gt;
-&lt;p&gt;この製品は後に市場に大きな影響を与えている。&lt;/p&gt;
-&lt;p&gt;かつてのオイルヒーターは、大手とジェネリック家電メーカーが製造しており、新興メーカーの入る隙はなかった。&lt;/p&gt;
-&lt;p&gt;格安の品はあっても、小型の製品ばかりだ。&lt;/p&gt;
-&lt;p&gt;しかし、オイルレス方式の登場により、新興メーカーだけでなく、これまでファンヒーターなどが主力で輻射熱方式に消極的だったコロナなども製品をリリースした。&lt;/p&gt;
-&lt;p&gt;格安帯も本体価格が1万円台で十分なパワーを持った商品が登場している。&lt;/p&gt;
-&lt;p&gt;つまり、予算の都合だとしても選択肢はあるのだ。&lt;/p&gt;
-&lt;p&gt;そんな中、何故わざわざ旧式のオイルヒーターを選んだのか？&lt;/p&gt;
-&lt;h3 id=&#34;mdhを使用して露呈したメリットの薄さとは&#34;&gt;MDHを使用して露呈した「メリットの薄さ」とは&lt;/h3&gt;
-&lt;p&gt;すてらびっと監督曰く、「製品の特性に疑問点があった」という。&lt;/p&gt;
-&lt;p&gt;監督が注目したのは、部屋の暖房として機能する前段の「本体の暖まり方」である。&lt;/p&gt;
-&lt;p&gt;「パネルの1個1個が緻密に制御されているのは温度計で計測するとわかるんですが、下が冷たいんですよ。疎かになっているというか。」&lt;/p&gt;
-&lt;p&gt;実は、MDHの普及モデルでは下部が暖まらないのだ。
-フラッグシップモデルの「ソラーレ IDH15」では、この問題は解決されているようだが、中古やセールでも5万円程度と、本体価格が高額である。&lt;/p&gt;
-&lt;h4 id=&#34;監督の判断の理由は自身のミスも&#34;&gt;監督の判断の理由は「自身のミス」も。&lt;/h4&gt;
-&lt;p&gt;監督は次のように語る。&lt;/p&gt;
-&lt;p&gt;「失敗した点は、レンタルした製品のサイズが小さかった。ただ、それでむしろ吹っ切れた。サイズアップも考えたが、仕組み的に引っかかるんじゃ不満は残ったままになってしまう」&lt;/p&gt;
-&lt;p&gt;更に続け、今回のベルカルドという選択の理由をこう語った。&lt;/p&gt;
-&lt;p&gt;「いくら速い、軽いと言っても、モヤモヤするものを使い続けるわけにはいけない。」&lt;/p&gt;
-&lt;h4 id=&#34;オイルヒーターの構造に着目パワー対策も&#34;&gt;オイルヒーターの構造に着目、パワー対策も&lt;/h4&gt;
-&lt;p&gt;監督が何より注目したのは、50年の歴史を持つ基本構造だ。&lt;/p&gt;
-&lt;p&gt;オイルヒーターは下部にオイルを暖めるためのヒーターがあり、それによって温まったオイルは上へ循環していく。MDHと比較して暖まりの遅さはあれど、不満点を少しはカバーできるのではないかと睨んだ。&lt;/p&gt;
-&lt;p&gt;今回の選択でパワー不足の懸念も「無くなりました。13畳用ならウチでも太刀打ちできる」と自信を覗かせる。&lt;/p&gt;
-&lt;h3 id=&#34;断熱対策は引き続きやっていく-今季の運用方針はメリハリ&#34;&gt;断熱対策は「引き続きやっていく」 今季の運用方針は「メリハリ」&lt;/h3&gt;
-&lt;p&gt;今回をきっかけに、運用方針も変えると監督は語る。&lt;/p&gt;
-&lt;p&gt;断熱対策も「冬だけでなく夏も効くので、引き続き強化する」と力の入ったコメントを残す。&lt;/p&gt;
-&lt;h4 id=&#34;mdhやオイルヒーターが敬遠される日本特有の住宅事情&#34;&gt;MDHやオイルヒーターが敬遠される日本特有の住宅事情&lt;/h4&gt;
-&lt;p&gt;MDHやオイルヒーターなどの輻射熱暖房を有効に活用する鍵はなんといっても「気密性」である。&lt;/p&gt;
-&lt;p&gt;ヨーロッパやアメリカなど英語圏のレビューでは、「電気代が嵩む」といった日本のレビューとは真逆で、むしろ省エネルギーな暖房として選択されている実情がある。&lt;/p&gt;
-&lt;p&gt;それらの地域と違う点は住宅の気密性の高さである。&lt;/p&gt;
-&lt;p&gt;日本の住宅は湿気対策で通気性を重視しているため、相性が悪い暖房のひとつとされている。&lt;/p&gt;
-&lt;p&gt;今でこそ改善はされているが、木造や軽量鉄骨の古い住居では暖まったそばから逃げていくという弱点がある。&lt;/p&gt;
-&lt;p&gt;「実は昨年の1月頃に導入を考えてたんですが、それにしてはあまりにも隙間風や冷気の『隙』が多すぎる。ドア自体からも冷気が来るし、ドアや窓からの隙間風、キッチンやクローゼットなど課題は山積みですよ。」&lt;/p&gt;
-&lt;h4 id=&#34;2025年シーズンに冷気対策を大幅強化&#34;&gt;2025年シーズンに冷気対策を大幅強化&lt;/h4&gt;
-&lt;p&gt;昨年12月にMDHの導入を決めた時に、ドアや窓の冷気対策として断熱シートを貼った。&lt;/p&gt;
-&lt;p&gt;その結果、ドアの表面温度は12℃から15℃に上昇している。&lt;/p&gt;
-&lt;p&gt;その他、ドアの金属部分や窓のサッシなど、冷気が伝わる箇所に断熱シートを貼り、対策を強化している最中だ。&lt;/p&gt;
-&lt;p&gt;「キッチンとかクローゼットはもう断熱材でも突っ込んじゃおうか考えてます。工事できないんで適当に。」&lt;/p&gt;
-&lt;p&gt;と苦笑しながら語る。&lt;/p&gt;
-&lt;h4 id=&#34;電源オフか超低温運用という選択肢の失念が今回の結果を産んだ&#34;&gt;「電源オフか超低温運用」という選択肢の失念が今回の結果を産んだ&lt;/h4&gt;
-&lt;p&gt;監督がもうひとつ「自分のミス」と語るのは、24時間運用だ。&lt;/p&gt;
-&lt;p&gt;就寝時や外出中にエコモードで17℃ほどに設定していたが、結局温度を維持し切れずに電気の使用量は上がっていた。&lt;/p&gt;
-&lt;p&gt;Looopでんきのアプリで監視していると、1日あたりの電気使用量は10kWhをゆうに超え、結果として1月の電気代は12000円。エアコン使用時は9000円だったことを考えると、馬鹿にできない差である。&lt;/p&gt;
-&lt;p&gt;しかし、この結果にむしろポジティブに立ち向かうのが監督流。&lt;/p&gt;
-&lt;p&gt;就寝時や外出時の運用方法について、&lt;/p&gt;
-&lt;p&gt;「あまりにも余計だった。外出中や就寝時は切って、起きる前に暖めればもっとコストは抑えられた。」&lt;/p&gt;
-&lt;h4 id=&#34;iotデバイスの活用で更なるコスト減を目指す&#34;&gt;IoTデバイスの活用で更なるコスト減を目指す&lt;/h4&gt;
-&lt;p&gt;実は監督宅には安いながらもIoTデバイスがあり、赤外線リモコンを登録して操作も可能である。&lt;/p&gt;
-&lt;p&gt;更にアプリでスケジュール動作ができる機種であるにもかかわらず、「漫然と運用してしまったのは失敗だった。」と振り返る。&lt;/p&gt;
-&lt;p&gt;しかし、筐体の破損やセキュリティの懸念から、使用を避けていた面もある。&lt;/p&gt;
-&lt;p&gt;しかし、本体のタイマー機能でカバーは可能だったのである。&lt;/p&gt;
-&lt;p&gt;「長時間の外出や就寝時はオフにするか、完全に冷まさない程度に維持して、帰宅前や起床前に上げる。これがベストだったんじゃないかと悔やんでいます。」&lt;/p&gt;
-&lt;p&gt;次回のヒーターはオイルなので蓄熱性の高さが強みだ。&lt;/p&gt;
-&lt;p&gt;その特性を引き出すべく、緻密な戦略を立てる構えだ。&lt;/p&gt;
-&lt;p&gt;破損していたIoTデバイスも「自作」に入れ替え、コスト減を目論む。&lt;/p&gt;</description>
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>【自腹レビュー】デロンギ　マルチダイナミックヒーター「MDHU12」との戦い。新品よりお得な買い方も。</title>
       <link>https://www.stellorbit.net/posts/delonghi-mdh-conquer/</link>
       <pubDate>Sun, 01 Feb 2026 17:27:00 +0900</pubDate>
+      
       <guid>https://www.stellorbit.net/posts/delonghi-mdh-conquer/</guid>
-      <description>&lt;h2 id=&#34;2026-年光熱費との戦いに新兵器新凶器&#34;&gt;2026 年、光熱費との戦いに新兵器（新凶器？）&lt;/h2&gt;
+      <description>
+        
+          
+            &lt;h2 id=&#34;2026-年光熱費との戦いに新兵器新凶器&#34;&gt;2026 年、光熱費との戦いに新兵器（新凶器？）&lt;/h2&gt;
 &lt;p&gt;クリスマス終わりの 2025 年 12 月、以前からすごく気になっていた暖房器具を導入しました。&lt;br&gt;
 それは・・・&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;「デロンギ　マルチダイナミックヒーター」&lt;/strong&gt; です。
-&lt;img alt=&#34;picture&#34; loading=&#34;lazy&#34; src=&#34;https://www.stellorbit.net/posts/mdh-i.webp&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;pr購入した製品の-amazon-リンク&#34;&gt;【PR】購入した製品の Amazon リンク&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;de&#34;&gt;&lt;a href=&#34;https://www.amazon.co.jp/dp/B08FM4J7YC?tag=stellorbit-22&#34;&gt;De&amp;rsquo;Longhi (デロンギ) マルチダイナミックヒーター MDHU12-BK 電気ヒーター ゼロ風暖房 節電 直感操作クリックノブ リモコン付き 表面温度約 60℃ 節電 [8-10 畳] [ピュアホワイト × マットブラック] デロンギファミリー登録で 5 年保証&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;今回の記事は、こいつを 1 か月くらい使い倒し、電気アプリ（Looop でんき）と睨めっこしながら奮闘した記録とレビューです。&lt;/p&gt;
-&lt;p&gt;デロンギだけでなく、ユーレックス(eureks)やディンプレックス(Dimplex)等からも同じような製品が出ているので、購入を考えている方の参考になれば幸いです。&lt;/p&gt;
-&lt;p&gt;というか、オイルヒーターと比べて設計が簡単…というか、オイルを入れる必要がない分、&lt;strong&gt;新興メーカーもいくらか入ってきています。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;今後熱いバトルが予想されそうなカテゴリ、&lt;strong&gt;その老舗の製品は果たしてどうなのか？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;本音でレビューします&lt;/strong&gt;。レンタルとはいえ自腹なんで。&lt;/p&gt;
-&lt;h3 id=&#34;序章出会い&#34;&gt;序章：出会い&lt;/h3&gt;
-&lt;p&gt;デロンギといえばコーヒーメーカーだけでなく、&lt;strong&gt;「オイルヒーター」&lt;/strong&gt; でも有名な企業です。&lt;/p&gt;
-&lt;p&gt;一昨年ごろ、「オイルヒーターって昔聞いたな・・・どうなんだろう」って某家電量販店をうろついていたら、&lt;strong&gt;とんでもない製品を発見。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;スタッフさんの話によると、なんと、**「オイルが入っていないオイルヒーター」**なるものがあるとのこと。&lt;/p&gt;
-&lt;p&gt;それが「マルチダイナミックヒーター」、そして「オイルレスヒーター」との出会いでした。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「オイルが入ってないオイルヒーター」とかいうド矛盾。&lt;/strong&gt; こう説明するしかないんですよホントに。すみませんね。&lt;/p&gt;
-&lt;p&gt;しかし、**価格はおよそ６～７万円。**たっけえなオイ。&lt;/p&gt;
-&lt;p&gt;しかし、それを出してしまってでも手に入れたい理由がありました。&lt;/p&gt;
-&lt;h3 id=&#34;2024-25-シーズンの自室の暖房器具事情&#34;&gt;2024-25 シーズンの自室の暖房器具事情&lt;/h3&gt;
-&lt;p&gt;これまで自室の温かさを牽引してきたのは、&lt;strong&gt;ガスファンヒーター&lt;/strong&gt;でした。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;ガスファンヒーターとMDHU12が並んでいる写真&#34; loading=&#34;lazy&#34; src=&#34;https://www.stellorbit.net/posts/heaterfeatmdh.webp&#34;&gt;&lt;/p&gt;
-&lt;p&gt;ベテランと新入りのツーショット。&lt;/p&gt;
-&lt;p&gt;ただ、この手の暖房器具、&lt;strong&gt;自分は使っちゃいけないタイプだと思いながらずーっと使い続けてきました。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;というのも、やはり「特性」というものがあるので、&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;寝落ち&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;無換気&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;付けっぱなし&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;と、前科モリモリなわけです。&lt;/p&gt;
-&lt;p&gt;しかもガスファンヒーターは製造年から数えて&lt;strong&gt;15 年選手。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;更に&lt;strong&gt;代わりの先発&lt;/strong&gt;として機能してほしい&lt;strong&gt;エアコンがガス抜けなのかなんなのか役に立たない&lt;/strong&gt;という始末。&lt;/p&gt;
-&lt;p&gt;そんな感じで、代わりの暖房を探していたときに・・・&lt;strong&gt;序章に戻ります。&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第-2-章我が家の冷暖房効率は絶望的で変則的だった&#34;&gt;第 2 章：我が家の冷暖房効率は・・・絶望的で、変則的だった&lt;/h3&gt;
-&lt;p&gt;てなわけでマルチダイナミックヒーターやオイルレスヒーターを昨年から調べていたのですが、&lt;/p&gt;</description>
+&lt;figure&gt;
+  &lt;picture&gt;
+
+    
+      
+        
+        
+        
+        
+        
+        
+    &lt;img
+      loading=&#34;lazy&#34;
+      decoding=&#34;async&#34;
+      alt=&#34;picture&#34;
+      
+        class=&#34;image_figure image_internal image_unprocessed&#34;
+        src=&#34;https://www.stellorbit.net/images/mdh-i.webp&#34;
+      
+      
+    /&gt;
+
+    &lt;/picture&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+          
+          
+        
+      </description>
     </item>
-    <item>
-      <title>Visual Studio 2026から書いてみたテスト記事。</title>
-      <link>https://www.stellorbit.net/posts/visualstudio/</link>
-      <pubDate>Sat, 10 Jan 2026 12:02:27 +0900</pubDate>
-      <guid>https://www.stellorbit.net/posts/visualstudio/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;こちらはテスト記事です内容の変更が頻繁にありますのでご注意ください&#34;&gt;こちらはテスト記事です。内容の変更が頻繁にありますので、ご注意ください。&lt;/h2&gt;
-&lt;h2 id=&#34;ものは試し&#34;&gt;ものは試し。&lt;/h2&gt;
-&lt;p&gt;hugo+Firebaseなこのブログですが、どうもターミナルから投稿するのも、MarkdownのWYSIWYGエディタもイマイチしっくり来ないので、Visual Studio 2026から直接書いてみることにしました。&lt;/p&gt;
-&lt;p&gt;多分VS Codeとか使うのもいいんでしょうが、せっかくの多機能IDEでNode.jsがハナからサポートされているので、いっぺんやってみようじゃないかと。&lt;/p&gt;
-&lt;p&gt;ちなみにVisual StudioのCommunityは無料で使えます。昔々Visual Studio 6.0の頃はすんごいお高かったんですが、個人～小規模だとC#やC++、Python、JavaScript等々の開発環境が無料。&lt;/p&gt;
-&lt;p&gt;恐ろしい時代だ・・・&lt;/p&gt;
-&lt;h3 id=&#34;visual-studio-2026でのmarkdown編集&#34;&gt;Visual Studio 2026でのMarkdown編集&lt;/h3&gt;
-&lt;p&gt;Visual Studio 2026では、Markdownの編集がかなり強化されており、リアルタイムプレビューやシンタックスハイライトが充実しています。これにより、記事の構成やスタイルを確認しながら執筆できるため、非常に便利です。&lt;/p&gt;
-&lt;p&gt;・・・と、&lt;strong&gt;自動で出てきました。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;多少うざったいですが、こういう入力アシストの文章からアイデアを拾えたりするので、目をつむります。&lt;/p&gt;
-&lt;h3 id=&#34;firebaseへのデプロイ&#34;&gt;Firebaseへのデプロイ&lt;/h3&gt;
-&lt;p&gt;デプロイで現在躓いていて、Firebase CLIをいつものとおりに&lt;code&gt;hugo &amp;amp;&amp;amp; firebase deploy&lt;/code&gt;ってVSのターミナルからやってます。&lt;/p&gt;
-&lt;p&gt;もうちょい効率的にできるといいんですが、訳が分からないので、今はこれで我慢。&lt;/p&gt;
-&lt;p&gt;・・・多分Codeのほうが楽なんじゃないか疑惑が出ています。そっちもあとで使ってみます。&lt;/p&gt;</description>
-    </item>
+    
     <item>
       <title>【2025改訂版】初心者向けのDAWなんて存在しない。</title>
       <link>https://www.stellorbit.net/posts/daw-for-beginner/</link>
       <pubDate>Mon, 15 Dec 2025 19:24:14 +0900</pubDate>
+      
       <guid>https://www.stellorbit.net/posts/daw-for-beginner/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;「初心者におすすめのDAWって何？」&lt;/strong&gt; という質問をよく目にします。&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;&lt;strong&gt;「初心者におすすめのDAWって何？」&lt;/strong&gt; という質問をよく目にします。&lt;/p&gt;
 &lt;p&gt;この質問に対して、私ははっきりこう答えます。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;無い。そんなものはない。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;初学者でも操作がしやすいものなど存在しない。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;私はこう答えます。&lt;/p&gt;
-&lt;p&gt;この記事自体は2年前にnoteで書いたものですが、それをベースとして、その理由をちゃんと説明いたします。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap1&#34;&gt;皆が忘れている、創作系ソフトの「大前提」&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap2&#34;&gt;オーディオIF付属のDAWはただの「機能制限版」&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;a href=&#34;#cap3&#34;&gt;「情報の多さ」＝「ハードルの高さ」&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap3-1&#34;&gt;調べる方法がわからなければ答えにたどり着けない&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap3-2&#34;&gt;AIチャットツールに聞けばソフトの種類は関係なくなる&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;        &lt;a href=&#34;#cap3ai&#34;&gt;⚠️AIツールを使用する際に「絶対に」頭の片隅に置くべきこと&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap3pr&#34;&gt;プロンプト例&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap4&#34;&gt;で、どう選ぶのが正解なの？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap4-1&#34;&gt;選ぶ際のポイント&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;        &lt;a href=&#34;#cap4-2&#34;&gt;後で別のDAWの味を知ってしまったら？&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap5&#34;&gt;主要DAW仕様表&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5-1&#34;&gt;「ARM対応」について&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5paid&#34;&gt;有料DAW（試用版あり）&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5letsbuy&#34;&gt;気に入ったら買おう。&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;    &lt;a href=&#34;#cap5free&#34;&gt;金がない？ならば無料DAWだ！&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#cap6&#34;&gt;オーディオインターフェイスを第一優先に&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;#omake&#34;&gt;おまけ：主流＋αのDAWの個人的レビュー&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;cap1&#34;&gt;皆が忘れている、創作系ソフトの「大前提」&lt;/h2&gt;
-&lt;p&gt;これはDAWに限らず、Adobeなどの創作系ソフト全般に言えることなんですが、&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「元々プロ向けのソフトであり、それがそのまま消費者向け市場に来たもの」&lt;/strong&gt; なんです。&lt;/p&gt;
-&lt;p&gt;つまり、中身は元から変わってないんです。それが&lt;strong&gt;一般消費者のPCで動くようになって、個人のクリエイターが使えるようになった&lt;/strong&gt;だけの話です。&lt;/p&gt;
-&lt;h3 id=&#34;価格面&#34;&gt;価格面&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Cubase Pro&lt;/strong&gt;は今も定価で買えば&lt;strong&gt;6万前後&lt;/strong&gt;、&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ableton Live&lt;/strong&gt;なんかも&lt;strong&gt;真ん中のStandardから5万くらい&lt;/strong&gt;します。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Studio One Pro&lt;/strong&gt;も&lt;strong&gt;元々4万程度&lt;/strong&gt;する代物が最近販売手法が変わり、購入のハードルが下がっただけです。&lt;/p&gt;
-&lt;p&gt;更に昔に遡ると、音楽ソフトではないですが、&lt;strong&gt;「Adobe Creative Cloud Pro」&lt;/strong&gt; に相当する&lt;strong&gt;買い切り版&lt;/strong&gt;がありました。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;「Adobe Creative Suite 6 Master Collection」&lt;/strong&gt;　ってやつなんですが、調べたところ&lt;strong&gt;33万円&lt;/strong&gt;でした。&lt;/p&gt;
-&lt;p&gt;作ったばかりのクレカなら限度額オーバーになる額です。&lt;/p&gt;
-&lt;p&gt;それが海賊版対策やらでサブスクになり、アマチュアの手に渡るようになったわけです。&lt;/p&gt;
-&lt;h3 id=&#34;機能面&#34;&gt;機能面&lt;/h3&gt;
-&lt;p&gt;元々プロ向けの高額なソフト、ということは・・・&lt;strong&gt;機能面もプロ向けです。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Windows限定で無料でダウンロードできる&lt;a href=&#34;https://www.cakewalk.com/sonar&#34;&gt;Cakewalk Sonar&lt;/a&gt;とか、元々は&lt;strong&gt;6-7万とかで売ってた代物&lt;/strong&gt;です。&lt;/p&gt;
-&lt;p&gt;フル機能の開放にはメンバーシップの加入必須ですが、&lt;strong&gt;無料範囲だけでもかなり習熟が難しい&lt;/strong&gt;です。&lt;/p&gt;
-&lt;p&gt;昔の作曲家やエンジニアは、&lt;strong&gt;分厚い説明書を読みながらこれらと格闘していた&lt;/strong&gt;わけです。&lt;/p&gt;
-&lt;p&gt;現在主流のDAWは&lt;strong&gt;一部を除いてほとんどコレです。&lt;/strong&gt; 適当なソフトのユーザーマニュアル（英語のほうが出てきやすいかも）を調べて見てください。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;ボリュームがエゲツないですよほんと。&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;情報の取得&#34;&gt;情報の取得&lt;/h3&gt;
-&lt;p&gt;今でこそチュートリアル動画はどこかしこに転がっていますが、&lt;strong&gt;「え、その機能どこどこ？？？」ってなる事がかなり多い&lt;/strong&gt;です。&lt;/p&gt;
-&lt;p&gt;そんで検索して出てくるのは、&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分厚いマニュアルのデジタル版&lt;/strong&gt;、&lt;strong&gt;ソフト固有の用語が飛び交うフォーラム&lt;/strong&gt;、&lt;strong&gt;超長尺のYouTube動画&lt;/strong&gt;、そして&lt;strong&gt;初心者向けとは程遠い書籍&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;あと&lt;strong&gt;適当なこと書いてあるまとめサイトやYouTube動画！！！！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;（&lt;a href=&#34;https://sleepfreaks-dtm.com/&#34;&gt;Sleepfreaks&lt;/a&gt;除く。あそこは&lt;strong&gt;初学者向けの日本語情報はダントツ&lt;/strong&gt;だと思います。）&lt;/p&gt;
-&lt;p&gt;これらで躓いた人は何人も見てきました。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;自分も躓いて投げ出したソフトは山程あります。&lt;/strong&gt; Avidの動画編集ソフトとか。&lt;/p&gt;
-&lt;h2 id=&#34;cap2&#34;&gt;オーディオIF付属のDAWはただの「機能制限版」&lt;/h2&gt;
-&lt;p&gt;オーディオインターフェイスなんか買うと、オマケでDAWがついてることがありますよね。&lt;/p&gt;
-&lt;p&gt;Cubase AI、Ableton Live Lite、Performer Lite…&lt;/p&gt;
-&lt;p&gt;これらは、&lt;strong&gt;価格を安くするために機能を色々削った「機能制限版」&lt;/strong&gt; であり、&lt;strong&gt;初心者向けでもなんでもない&lt;/strong&gt;です。&lt;/p&gt;
-&lt;p&gt;こういった付属ソフトは、後述する &lt;strong&gt;「体験版を片っ端から試す」&lt;/strong&gt; 場合に&lt;strong&gt;デッキに組み込む&lt;/strong&gt;のが最適解だと思います。&lt;/p&gt;</description>
+          
+          
+        
+      </description>
     </item>
+    
     <item>
       <title>「僕が考えた最強のタバコ政策」をGemini 3にジャッジしてもらった。</title>
       <link>https://www.stellorbit.net/posts/tobacco-harmreduction-perplexity/</link>
       <pubDate>Sat, 13 Dec 2025 15:17:43 +0900</pubDate>
+      
       <guid>https://www.stellorbit.net/posts/tobacco-harmreduction-perplexity/</guid>
-      <description>&lt;p&gt;本格的に記事を書いてみます。&lt;/p&gt;
+      <description>
+        
+          
+            &lt;p&gt;本格的に記事を書いてみます。&lt;/p&gt;
 &lt;p&gt;今日、こんなことを思いました。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;「加熱式とかの非燃焼式のシェアを上げて紙巻きを高付加価値化すれば、タバコの諸々の問題の解決策のひとつになるのでは？」&lt;/strong&gt; と。&lt;/p&gt;
-&lt;p&gt;Xにも多少書いたのですが、ここはAIにちょっと助けてもらうとしましょう。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E3%83%97%E3%83%AD%E3%83%B3%E3%83%97%E3%83%88&#34;&gt;プロンプト&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E3%82%A8%E3%82%B0%E3%82%BC%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96%E3%82%B5%E3%83%9E%E3%83%AA%E3%83%BC&#34;&gt;エグゼクティブサマリー&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%87%83%E7%84%BC%E5%BC%8F%E3%82%BF%E3%83%90%E3%82%B3%E3%81%AE%E9%A1%95%E5%9C%A8%E5%8C%96%E3%81%97%E3%81%9F%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88&#34;&gt;燃焼式タバコの顕在化したデメリット&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E9%9D%9E%E7%87%83%E7%84%BC%E5%BC%8F%E3%82%BF%E3%83%90%E3%82%B3%E3%81%AE%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88&#34;&gt;非燃焼式タバコのメリット&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%BD%93%E8%A9%B2%E6%A1%88%E3%81%AE%E7%9B%AE%E7%9A%84&#34;&gt;当該案の目的&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E6%87%B8%E5%BF%B5%E4%BA%8B%E9%A0%85&#34;&gt;懸念事項&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#gemini%E3%81%AE%E8%BF%94%E7%AD%94&#34;&gt;Geminiの返答&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#1-%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%AE%E6%B7%B1%E6%8E%98%E3%82%8A%E7%A4%BE%E4%BC%9A%E7%9A%84%E7%B5%8C%E6%B8%88%E7%9A%84%E5%90%88%E7%90%86%E6%80%A7&#34;&gt;1. メリットの深掘り：社会的・経済的合理性&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%A4%BE%E4%BC%9A%E7%9A%84%E3%82%B3%E3%82%B9%E3%83%88%E5%A4%96%E9%83%A8%E4%B8%8D%E7%B5%8C%E6%B8%88%E3%81%AE%E5%85%B7%E4%BD%93%E7%9A%84%E3%81%AA%E5%89%8A%E6%B8%9B&#34;&gt;社会的コスト（外部不経済）の具体的な削減&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E6%B8%85%E6%8E%83%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E3%82%B3%E3%82%B9%E3%83%88%E3%81%AE%E5%8A%87%E7%9A%84%E4%BD%8E%E4%B8%8B&#34;&gt;清掃・メンテナンスコストの劇的低下&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E5%8A%B4%E5%83%8D%E7%94%9F%E7%94%A3%E6%80%A7%E3%81%AE%E5%90%91%E4%B8%8A&#34;&gt;労働生産性の向上&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%94%A3%E6%A5%AD%E6%A7%8B%E9%80%A0%E3%81%AE%E8%BB%A2%E6%8F%9B%E3%81%A8%E6%8A%80%E8%A1%93%E9%9D%A9%E6%96%B0&#34;&gt;産業構造の転換と技術革新&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E6%B6%88%E9%98%B2%E9%98%B2%E7%81%BD%E9%9D%A2%E3%81%A7%E3%81%AE%E5%AE%9A%E9%87%8F%E7%9A%84%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88&#34;&gt;消防・防災面での定量的メリット&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#2-%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E6%87%B8%E5%BF%B5%E4%BA%8B%E9%A0%85%E3%81%AE%E6%B7%B1%E6%8E%98%E3%82%8A%E6%94%BF%E7%AD%96%E5%B8%82%E5%A0%B4%E3%83%AA%E3%82%B9%E3%82%AF&#34;&gt;2. デメリット・懸念事項の深掘り：政策・市場リスク&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#a-%E8%B2%A1%E6%94%BF%E5%B8%82%E5%A0%B4%E3%83%AA%E3%82%B9%E3%82%AF%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E3%81%AE%E5%8F%B0%E9%A0%AD&#34;&gt;A. 財政・市場リスク（ブラックマーケットの台頭）※&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#b-%E6%94%BF%E7%AD%96%E7%9A%84%E5%80%AB%E7%90%86%E7%9A%84%E3%83%8F%E3%83%BC%E3%83%89%E3%83%AB%E5%85%AC%E9%87%91%E3%81%AB%E3%82%88%E3%82%8B%E8%A3%9C%E5%8A%A9%E3%81%AE%E6%98%AF%E9%9D%9E&#34;&gt;B. 政策的・倫理的ハードル（公金による補助の是非）※&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#c-%E7%A4%BE%E4%BC%9A%E7%9A%84%E5%85%AC%E5%B9%B3%E6%80%A7%E9%80%86%E9%80%B2%E6%80%A7%E3%81%AE%E6%8B%A1%E5%A4%A7&#34;&gt;C. 社会的公平性（逆進性の拡大）※&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#d-%E3%83%8F%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%80%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%B8%8D%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%82%B2%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%A8%E3%83%87%E3%83%A5%E3%82%A2%E3%83%AB%E3%83%A6%E3%83%BC%E3%82%B9&#34;&gt;D. ハーム・リダクションの不確実性（ゲートウェイとデュアルユース）※&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#3-%E7%B7%8F%E6%8B%AC%E4%BF%AE%E6%AD%A3%E6%A1%88%E3%81%AE%E6%8F%90%E8%A8%80&#34;&gt;3. 総括・修正案の提言&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#%E7%B7%8F%E8%A9%95&#34;&gt;総評&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E4%BF%AE%E6%AD%A3%E6%A1%88%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7&#34;&gt;修正案としての方向性&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#gemini%E3%81%8F%E3%82%93%E3%81%AA%E3%81%8B%E3%81%AA%E3%81%8B%E7%97%9B%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%82%92%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8F%E3%82%8B&#34;&gt;Geminiくん、なかなか痛いところをついてくる&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#%E3%81%BE%E3%81%A8%E3%82%81%E3%81%93%E3%81%AE%E5%9B%9E%E7%AD%94%E3%82%92%E8%B8%8F%E3%81%BE%E3%81%88%E3%81%9F%E5%8F%AF%E8%83%BD%E6%80%A7&#34;&gt;まとめ：この回答を踏まえた可能性&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;プロンプト&#34;&gt;プロンプト&lt;/h2&gt;
-&lt;p&gt;使用エンジン：Gemini 3.0 Pro（Perplexity経由、「理論的に」ON）&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;タバコ税に関する自分の案について、メリット・デメリットを教えて下さい。&lt;/p&gt;
-&lt;p&gt;各項目の末尾の「※」は懸念事項として記述します。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;# タバコ税改正案&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;「加熱式優遇によるハームリダクション推進→加熱式製品への増税のステップを踏むことによる『純粋な嗜好品』への税金への転換、燃焼式タバコのプレミアム化」&lt;/p&gt;
-&lt;h3 id=&#34;エグゼクティブサマリー&#34;&gt;エグゼクティブサマリー&lt;/h3&gt;
-&lt;p&gt;この案は、紙巻・葉巻（リトルシガーやシガリロ含む）・手巻など「燃焼式タバコ」の増税を先行して行い、加熱式タバコやスヌースなど、「非燃焼式タバコ」の増税の一定期間の停止やデバイスの購入補助などの優遇措置を行うことで、主流を非燃焼式にスイッチしつつ、最終的に非燃焼式も燃焼式より低い推移で増税することで、「非燃焼式タバコによる税収確保」および「燃焼式タバコを高級嗜好品にカテゴライズし、税収の増加を狙う」策である。&lt;/p&gt;
-&lt;h3 id=&#34;燃焼式タバコの顕在化したデメリット&#34;&gt;燃焼式タバコの顕在化したデメリット&lt;/h3&gt;
-&lt;p&gt;紙巻タバコは依然シェアは高いが、デメリットとして以下が挙げられる。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;燃焼時の主流煙・副流煙による健康リスク&lt;/li&gt;
-&lt;li&gt;受動喫煙リスクの高さ&lt;/li&gt;
-&lt;li&gt;火の不始末による火災&lt;/li&gt;
-&lt;li&gt;事業所・店舗・公共の喫煙所の設置コストの増大&lt;/li&gt;
-&lt;li&gt;賃貸住宅や店舗テナントの管理側コスト・借り主側の選定の難しさ
-&lt;ul&gt;
-&lt;li&gt;雀荘・パチンコ店・飲食店などは喫煙所の新設や禁煙店舗にするしかなく、紙巻タバコのユーザーへや借り主の負担が大きい。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;非燃焼式タバコのメリット&#34;&gt;非燃焼式タバコのメリット&lt;/h3&gt;
-&lt;p&gt;iQOS・Ploom・glo等の加熱式タバコ・スヌースなどの非燃焼式タバコは、燃焼式タバコと比較して「主流煙・副流煙の有害物質の低減」がアピールされており、以下の効果が期待される。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;主流煙・副流煙の能動喫煙・受動喫煙双方の健康リスクの低減※&lt;/li&gt;
-&lt;li&gt;物件のヤニ汚れリスクが低下することによる賃貸物件の選定ハードルの低減&lt;/li&gt;
-&lt;li&gt;火災リスクの低減：火災保険料や保険金の支払いの低下&lt;/li&gt;
-&lt;li&gt;健康リスクの低減による医療費の削減・長寿命化※&lt;/li&gt;
-&lt;li&gt;非燃焼式タバコの市場拡大・活性化&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;当該案の目的&#34;&gt;当該案の目的&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;燃焼式タバコから非燃焼式タバコへのスイッチによる各種負担（健康・コスト）の低減※&lt;/li&gt;
-&lt;li&gt;禁煙治療と比較してハードルが低い「非燃焼式タバコ」の使用によるハームリダクションの推進&lt;/li&gt;
-&lt;li&gt;燃焼式タバコの増税と併せてメーカー各社による戦略により、安価な銘柄の値上げ・高付加価値商品への切り替えによる「高級嗜好品化」を進め、タバコ税の税収やメーカー各社の収益改善につなげる。※&lt;/li&gt;
-&lt;li&gt;最終的に非燃焼式タバコも増税はするが、燃焼式タバコとの差異は設ける。これはかつて存在した「物品税」のタバコ税バージョンとなる。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;懸念事項&#34;&gt;懸念事項&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;加熱式タバコの有害物質の低減データについては、メーカー側の発表が主であり、正式にリスクが低減することをWHOやFDAなどの公式機関が懐疑的である。
-加熱式タバコは肺で吸収するもので、タバコ葉は使われており、燃焼式と比較してリスクは少ないとしてもノーリスクではないため、医療費の削減や長寿命化への効果が薄い可能性がある。&lt;/li&gt;
-&lt;li&gt;スヌースは唇の裏に挟み使用するものなので、口腔がんや舌がんのリスクが懸念される。&lt;/li&gt;
-&lt;li&gt;燃焼式タバコの増税・プレミアム化によるユーザーからの反発のおそれ。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;さて、この質問をGeminiくんにぶつけてみましょう。&lt;/p&gt;</description>
+          
+          
+        
+      </description>
     </item>
+    
+    <item>
+      <title>【ポイ活】初心者から熟練者まで。ポイ活疲れ対策、おすすめサービス紹介</title>
+      <link>https://www.stellorbit.net/posts/poikatsu-management/</link>
+      <pubDate>Wed, 19 Mar 2025 00:13:16 +0900</pubDate>
+      
+      <guid>https://www.stellorbit.net/posts/poikatsu-management/</guid>
+      <description>
+        
+          
+            &lt;p&gt;猛攻型ことねPです。&lt;/p&gt;
+&lt;p&gt;今回は「ポイ活」でよくありがちな、&lt;strong&gt;「ポイ活疲れ」&lt;/strong&gt; について、自らの経験をもとに対策法を共有したいと思います。&lt;/p&gt;
+&lt;h2 id=&#34;ポイ活疲れ対策案件は絞ること&#34;&gt;ポイ活疲れ対策：案件は「絞る」こと。&lt;/h2&gt;
+&lt;p&gt;多分こういう記事にたどり着かれる方の中には、&lt;strong&gt;「ポイ活疲れ」&lt;/strong&gt; を経験されている方が多いと思われます。&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+[[main]]
+  name = "ホーム"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "記事"
+  url = "/posts/"
+  weight = 2
+
+[[main]]
+  name = "ツール"
+  url = "/tools/"
+  weight = 3
+
+[[main]]
+  name = "プライバシーポリシー"
+  url = "/privacy-policy/"
+  weight = 4
