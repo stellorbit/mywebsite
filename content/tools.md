@@ -8,8 +8,19 @@ draft = false
 
 ## 生成AI使用表明
 **これらのツールは、生成AIツールにて生成されたコードをビルドし作成したものです。**
+使用している生成AIについては、各ツールのGitHubをご覧ください。
 
 ---
+
+## Win11Optimizer Ver.2026.03
+
+CapsLockキーに左Ctrlをアサインし、CapsLockを黙らせるCLIツール。
+
+### ダウンロード
+
+[Win11Optimizer 2026.03(zip 53.8MB)](/downloads/Win11Optimizer_2603.zip)
+
+[GitHub](https://github.com/stellorbit/Win11Optimizer)
 
 ## CA2023Checker
 
@@ -18,7 +29,7 @@ PowerShellを打つ手間が省けます。
 
 ### ダウンロード
 
-[CA2023Check.zip](/downloads/CA2023Check.zip)
+[CA2023Check(zip 11.5MB)](/downloads/CA2023Check.zip)
 
 [GitHub](https://github.com/stellorbit/CA2023Check)
 
@@ -28,6 +39,7 @@ CapsLockキーに左Ctrlをアサインし、CapsLockを黙らせるCLIツール
 
 ### ダウンロード
 
-[CapsLockDisabler.zip](/downloads/CapsLockDisabler.zip)
+[CapsLockDisabler(zip 7.68MB)](/downloads/CapsLockDisabler.zip)
 
 [GitHub](https://github.com/stellorbit/CapsLockDisabler)
+
