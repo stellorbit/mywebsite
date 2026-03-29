@@ -1,0 +1,7 @@
+<div class="image-row-container">
+    {{ range .Params }}
+        <div class="image-item">
+            <img src="{{ . }}" alt="イメージ" loading="lazy">
+        </div>
+    {{ end }}
+</div>

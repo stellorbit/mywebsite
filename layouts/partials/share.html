@@ -1,0 +1,54 @@
+<div class="share-buttons">
+  <p class="share-buttons__label">この記事をシェア</p>
+  <div class="share-buttons__list">
+    <a
+      class="share-buttons__item"
+      href="https://twitter.com/intent/tweet?text={{ .Title | urlquery }}&url={{ .Permalink | urlquery }}"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      aria-label="Xでシェア"
+    >
+      X
+    </a>
+
+    <a
+      class="share-buttons__item"
+      href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      aria-label="Facebookでシェア"
+    >
+      Facebook
+    </a>
+
+    <a
+      class="share-buttons__item"
+      href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      aria-label="LinkedInでシェア"
+    >
+      LinkedIn
+    </a>
+
+    <a
+      class="share-buttons__item"
+      href="https://b.hatena.ne.jp/entry/{{ .Permalink }}"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      aria-label="はてなブックマークでシェア"
+    >
+      はてブ
+    </a>
+
+    <a
+      class="share-buttons__item"
+      href="https://social-plugins.line.me/lineit/share?url={{ .Permalink | urlquery }}"
+      target="_blank"
+      rel="nofollow noopener noreferrer"
+      aria-label="LINEでシェア"
+    >
+      LINE
+    </a>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+[[main]]
+  name = "ホーム"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "ツール"
+  url = "/tools/"
+  weight = 2
+
+[[main]]
+  name = "プライバシーポリシー"
+  url = "/privacy-policy/"
+  weight = 3
+
+  [[main]]
+  name = "お問い合わせ"
+  url = "/contact/"
+  weight = 4

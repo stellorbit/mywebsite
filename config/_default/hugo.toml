@@ -1,0 +1,19 @@
+# set `baseurl` to your root domain
+# if you set it to "/" share icons won't work properly on production
+baseurl = "https://www.stellorbit.net/" # Include trailing slash
+title = "軌道を描こう【改】"
+copyright = "Copyright © 2025-2026 Stellorbit.net. All rights reserved."
+theme = "hugo-clarity"
+DefaultContentLanguage = "ja"
+hasCJKLanguage = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+pagerSize = 10

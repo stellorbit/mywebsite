@@ -1,0 +1,19 @@
+description = "軌道を描こう【改】"
+introDescription = "AIやガジェット・テック関連・音楽制作・野球・麻雀などを中心に、多彩な話題を取り上げます。"
+mainSections = ["posts"]
+# ページバンドル設定
+usePageBundles = false
+enableSearch = true
+
+showRelatedInArticle = true
+numberOfRecentPosts = 10
+numberOfFeaturedPosts = 8
+figurePositionShow = false
+dateFormat = "2006-01-02"
+codeLineNumbers = true
+
+centerLogo = false
+# logo = "images/logo.png"
+# fotterLogo = "images/logo.png"
+# favicon = "images/favicon.ico"
+showShare = true

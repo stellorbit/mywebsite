@@ -1,0 +1,59 @@
+{{ define "main" }}
+  {{ $s := .Site.Params }}
+  {{ $p := .Params }}
+
+  <div class="grid-inverse wrap content">
+    <article class="post_content">
+
+      <div style="display:none">SINGLE-OVERRIDE-TEST</div>
+
+      {{ if .Title }}
+        <h1 class="post_title">{{ .Title | markdownify }}</h1>
+      {{ end }}
+
+      {{ partial "post-meta.html" . }}
+
+      {{ with $p.featureImage }}
+        <div class="post_featured">
+          {{ partial "image.html" (dict
+            "file" .
+            "alt" ($p.featureImageAlt | default $.Title)
+            "cap" $p.featureImageCap
+            "Page" $
+          ) }}
+        </div>
+      {{ end }}
+
+      {{ if $p.toc }}
+        <div class="post_toc">
+          {{ .TableOfContents }}
+        </div>
+      {{ end }}
+
+      <!-- BODY-START -->
+      <div class="post_body">
+        {{ .Content }}
+      </div>
+      <!-- BODY-END -->
+
+      {{ if ($p.showShare | default $s.showShare) }}
+        <!-- SHARE-START -->
+        {{ partial "share.html" . }}
+        <!-- SHARE-END -->
+      {{ end }}
+
+      {{ if ($p.showRelatedInArticle | default $s.showRelatedInArticle) }}
+        {{ partial "related.html" . }}
+      {{ end }}
+
+      {{ if ($p.comments | default $s.comments) }}
+        {{ partial "comments.html" . }}
+      {{ end }}
+
+    </article>
+
+    {{ if not ($p.singleColumn | default false) }}
+      {{ partial "sidebar.html" . }}
+    {{ end }}
+  </div>
+{{ end }}

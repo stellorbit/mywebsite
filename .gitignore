@@ -1,0 +1,17 @@
+# .gitignore
+public/
+redirect-public/
+.agents/
+skills-lock.json
+content_backup/
+.vs/
+.vscode/
+.firebase/
+.hugo_build.lock
+*~
+*.un~
+firebase.json_
+firebase_test.json
+list.txt
+themes/themes/
+resources/_gen/

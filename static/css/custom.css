@@ -1,0 +1,75 @@
+/* 横並びコンテナのCSS */
+.image-row-container {
+    display: flex;             /* 横並びにする */
+    flex-wrap: wrap;           /* 画面幅が狭い場合に折り返す */
+    gap: 15px;                 /* 画像間のスペース */
+    justify-content: center;   /* 中央に寄せて配置 */
+    margin: 20px 0;
+}
+
+/* 各画像アイテムのスタイル */
+.image-item {
+    /* 画像を均等に3つ並べるように設定 */
+    flex: 1 1 200px;
+    max-width: 250px; /* 画像の最大幅（これを超えて大きくならない） */
+    text-align: center;
+}
+
+/* 画像自体のスタイル */
+.image-item img {
+    max-width: 100%;           /* コンテナの幅からはみ出さないようにする */
+    height: auto;
+    /* 必要であれば、ここで画像の幅やアスペクト比を固定できます */
+    /* width: 200px; */
+}
+
+/* お問い合わせフォームのスタイル */
+.contact-form {
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* paddingを含めた幅計算 */
+}
+
+#submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
+
+#submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.form-status {
+    margin-top: 15px;
+    font-weight: bold;
+}

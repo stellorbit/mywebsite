@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body data-code="{{ if site.Params.codeLineNumbers }}true{{ else }}false{{ end }}"
+        data-lines="{{ if site.Params.codeLineNumbers }}true{{ else }}false{{ end }}"
+        id="documentTop">
+
+    {{ partial "header.html" . }}
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

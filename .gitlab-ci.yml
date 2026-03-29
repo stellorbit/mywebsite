@@ -1,0 +1,31 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+
+variables:
+  HUGO_VERSION: "0.157.0"
+
+build:
+  stage: build
+  image: registry.gitlab.com/pages/hugo:latest
+  script:
+    - hugo --cleanDestinationDir --minify
+  artifacts:
+    paths:
+      - public/
+      - static/
+    expire_in: 1 hour
+  only:
+    - main
+
+deploy:
+  stage: deploy
+  script:
+    - npm install -g firebase-tools
+    - echo -n $FIREBASE_SERVICE_ACCOUNT | base64 -d > service-account.json
+    - export GOOGLE_APPLICATION_CREDENTIALS="service-account.json"
+    - firebase deploy --only hosting --non-interactive
+  only:
+    - main

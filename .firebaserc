@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "stellorbitnet"
+  },
+  "targets": {
+    "stellorbitnet": {
+      "hosting": {
+        "main": [
+          "stellorbitnet"
+        ],
+        "redirect": [
+          "stellorbitnet-redirect"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
